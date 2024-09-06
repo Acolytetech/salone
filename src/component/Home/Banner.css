@@ -1,0 +1,314 @@
+/* Banner container */
+.banner {
+    background-image: url('../../img/home.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    color: rgb(136, 69, 207);
+    overflow-y: hidden;
+    position: relative;
+  }
+  
+  /* Banner content */
+  .banner-content {
+    padding: 90px;
+    padding-top: 0px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    overflow-y: hidden;
+  }
+  
+  /* Banner text */
+  .banner-text {
+    width: 50%;
+    font-size: 76px;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+    line-height: 76px;
+    overflow-y: hidden;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  /* Highlighted text */
+  .highlight {
+    color: #3322af; /* Yellow color for 'first choice' */
+  }
+  
+  /* Neonatology highlighted text */
+  .neonatology {
+    color:#3322af; /* Red color for 'neonatology' */
+  }
+  
+  /* Button container */
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Schedule container */
+  .schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  /* Schedule texts and divider */
+  .schedule-texts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(136, 69, 207);
+
+  }
+  
+  .schedule-text {
+ 
+    text-align: left;
+    margin-right: 10px;
+    color: rgb(136, 69, 207);
+
+  }
+  .schedule-texts a{
+    text-decoration: none;
+    /* border: solid 2px #ccc; */
+  }
+  .schedule-texts .schedule-text:hover .callno{
+    text-decoration: none;
+    color: rgb(32, 76, 217);
+  } .schedule-texts .schedule-text:hover .icon{
+    text-decoration: none;
+    color: rgb(45, 21, 224);
+  }
+  
+  .vertical-divider {
+    border: none;
+    border-left: 1px solid white;
+    height: 40px; /* Adjust height to match text height */
+    margin: 0 10px;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color:  #3322af;
+    /* border: 2px solid white; */
+    border-radius: 100px;
+    color: white;
+    padding: 20px 40px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .btn2{
+    background-color: rgb(136, 69, 207);
+  }
+  .btn2:hover{
+    color: rgb(136, 69, 207);
+    background-color: #FFFFFF;
+  }
+  
+  .btn1:hover  {
+    background-color: white;
+    color: #3322af;
+    /* border: 2PX solid #3322af; */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    /* Banner container */
+.banner {
+  background-image: url('../../img/home.png'); /* Replace with your image URL */
+  background-size: 100%  900px;
+  background-repeat: no-repeat;
+  background-position:0%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  color: rgb(136, 69, 207);
+  overflow-y: hidden;
+  position: relative;
+}
+
+/* Banner content */
+.banner-content {
+  padding: 0px;
+  padding-top: 0px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items:start; /* Align content to the left */
+  overflow-y: hidden;
+}
+
+/* Banner text */
+.banner-text {
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: left; /* Align text to the left */
+  line-height: 26px;
+  overflow-y: hidden;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Highlighted text */
+.highlight {
+  color: #3322af; /* Yellow color for 'first choice' */
+}
+
+/* Neonatology highlighted text */
+.neonatology {
+  color:#3322af; /* Red color for 'neonatology' */
+}
+
+/* Button container */
+.buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Schedule container */
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid white;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* Schedule texts and divider */
+.schedule-texts {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  color: rgb(136, 69, 207);
+
+}
+
+.schedule-text {
+
+  text-align: left;
+  margin-right: 10px;
+  color: rgb(136, 69, 207);
+
+}
+.schedule-texts a{
+  text-decoration: none;
+  /* border: solid 2px #ccc; */
+}
+.schedule-texts .schedule-text:hover .callno{
+  text-decoration: none;
+  color: rgb(32, 76, 217);
+} .schedule-texts .schedule-text:hover .icon{
+  text-decoration: none;
+  color: rgb(45, 21, 224);
+}
+
+.vertical-divider {
+  border: none;
+  border-left: 1px solid white;
+  height: 40px; /* Adjust height to match text height */
+  margin: 0 10px;
+}
+
+/* Button styles */
+.btn {
+  background-color:  #3322af;
+  /* border: 2px solid white; */
+  border-radius: 100px;
+  color: white;
+  padding: 20px 40px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 20px;
+  margin-left: 0px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.btn2{
+  background-color: rgb(136, 69, 207);
+}
+.btn2:hover{
+  color: rgb(136, 69, 207);
+  background-color: #FFFFFF;
+}
+
+.btn1:hover  {
+  background-color: white;
+  color: #3322af;
+  /* border: 2PX solid #3322af; */
+}
+
+    .banner-text {
+      font-size: 1.5em;
+    }
+  
+    .btn {
+      font-size: 0.9em;
+      padding: 8px 16px;
+    }
+  
+    .schedule-texts {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .vertical-divider {
+      display: none;
+    }
+  }
+  
+  .banner .custom-shape-divider-bottom-1725517865 {
+    position: absolute;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    /* border: solid 2px black; */
+    height: 300px;
+    
+}
+
+.custom-shape-divider-bottom-1725517865 svg {
+    position: relative;
+    display: block;
+    width: calc(279% + 1.3px);
+    height: 335px;
+}
+
+.custom-shape-divider-bottom-1725517865 .shape-fill {
+    fill: #FFFFFF;
+}

@@ -1,0 +1,231 @@
+/* Container Styling */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start;
+    padding: 90px;
+    padding-top: 162px;
+    gap: 20px;
+    background-color: #eaf3f9;
+    max-width: 100%; */
+    font-family: Inter,Arial, Helvetica, sans-serif;
+    height: fit-content;
+    width: 100%;
+    margin:0 10px 0 10px;
+    max-width: calc(100% +20px);
+    margin-top: 100px;
+    overflowy: hidden;
+
+  }
+  
+ 
+  .left-section {
+    /* flex: 1;
+    max-width: 60%; */
+    font-family: Inter , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    height: fit-content;
+    width: 60%;
+    padding: 0 10px 0 10px;
+    width: 60%;
+  }
+  
+  .left-section h1 {
+    /* font-size: 3.75rem;
+    line-height: 1.066;
+    margin-bottom: 10px;
+    color: #3a6ea1; */
+overflow: hidden;
+    font-family: "Nato Serif",Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font: 700px;
+    line-height: 63.96px;
+    text-align: left;
+    color: #3A6EA1;
+    height:127.891px;
+    width: 590px;
+    display: block;
+  }
+  
+  .left-section h1 .highlight {
+    color: #f46d67;
+  }
+  
+  .left-section h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #3a6ea1;
+  }
+  
+  .left-section p {
+    /* font-size: 1.375rem;
+    margin-top: .7em;
+    line-height: 1.4;
+    color: #3a6ea1;
+    margin-bottom: 50px; */
+height: 30px;
+    font-size: 22px;
+    font-style: italic;
+    font: 500;
+    /* line-height: 30.8px; */
+    /* text-align: left; */
+
+    color: #3A6EA1;
+    /* width: 590px; */
+    margin: 15px 0 0 0;
+}
+
+  .info-row {
+    display: flex;
+    /* justify-content: space-evenly; */
+margin-top: 50px;
+    
+    width: 100%;
+    height: fit-content;
+    /* outline: auto; */
+  }
+  
+  .info-item {
+    /* overflow: hidden; */
+  
+    /* flex-direction: column; */
+    align-items: center;
+
+    text-align: center;
+    width: 33%;
+    height: 350px;
+
+  }
+  .info-item p{
+    width: 100%;
+    font-size: 22px;
+    height:200px;
+    text-align: center;
+ 
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #f46d67;
+    margin-bottom: .5em;
+  }
+  
+
+  .flex-container {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    justify-content: center;
+    margin-right: 0px;
+}
+  
+  .flex-item {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+
+  }
+  .flex-item p{
+    width: fit-content;
+    height: 100px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    color: #3a6ea1;
+    
+  }
+  
+  .line {
+    height: 50px;
+    width: 2px;
+    background-color: #3a6ea1;
+  }
+  
+
+  .right-section {
+    
+    width: 30%;
+    background-color: #fff;
+margin-right: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .right-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #3a6ea1;
+  }
+  
+  .right-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-section label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #3a6ea1;
+  }
+  
+  .right-section input,
+  .right-section textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .right-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .right-section button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .left-section,
+    .right-section {
+      max-width: 100%;
+    }
+  
+    .right-section {
+      margin-top: 20px;
+    }
+  
+    .info-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .line {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,57 @@
+.funA-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+  }
+  
+  .funA-text {
+    flex: 1;
+    margin-right: 20px; 
+  }
+  
+  .funA-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .funA-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .funA-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap into rows */
+    gap: 20px; 
+    flex: 1;
+  }
+  
+  .funA-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; /* Equal width and height for square shape */
+    height: 300px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  .funA-card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:3rem;
+    /* margin-top: 3rem; */
+  }
+  
+  .funA-card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:3rem;
+    margin-top:3rem
+  }
+  

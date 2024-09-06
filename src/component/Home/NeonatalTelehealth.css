@@ -1,0 +1,66 @@
+.neonatal-container {
+    /* background-image: url('C:/Users/acoly/OneDrive/Desktop/projects/sloane/Sloane-Virtual-Hospital/src/img/background_02 (1).jpg'); */
+    background-image: url('../../img/background_02\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow-y: hidden;
+  }
+  
+  .flex-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .box1, .box2 {
+    flex: 1;
+    padding: 37px;
+    padding-bottom: 8em;
+    padding-top: 8em;
+    border-radius: 10px;
+    margin-bottom: 4em;
+   
+  }
+  
+  .box1 h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    line-height: 1.05;
+    height: 150px;
+}
+  
+  
+  .box1 p {
+    color: white;
+    font-size: 1.25rem;
+    margin-top: .9em;
+  }
+  
+  .custom-shape-divider-bottom-1725517865 {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    /* border: solid 2px black; */
+    height: 300px;
+    
+}
+
+.custom-shape-divider-bottom-1725517865 svg {
+    position: relative;
+    display: block;
+    width: calc(279% + 1.3px);
+    height: 335px;
+}
+
+.custom-shape-divider-bottom-1725517865 .shape-fill {
+    fill: #FFFFFF;
+}

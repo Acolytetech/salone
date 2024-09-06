@@ -1,0 +1,40 @@
+.profession-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 60px;
+    position: relative;
+  }
+  
+  .profession-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .profession-heading {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #3a6ea1;
+  }
+  
+  .profession-para {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profession-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profession-item {
+      margin-bottom: 20px;
+    }
+  }
