@@ -1,5 +1,5 @@
-
-/* .overlay-text {
+/* 
+.overlay-text {
     font-family: Inter,Arial, Helvetica, sans-serif;
     position: absolute;
     top: 40%;
@@ -76,8 +76,8 @@
    max-width: 50%;
    display: flex;
    margin :23px 0 0 0 ;
-}
-  */
+} */
+ 
 
 
   /* Hero Image Section */
@@ -87,9 +87,9 @@
    
   }
 
-  .custom-shape-divider-bottom-1725628279 {
+  .about-us-container .custom-shape-divider-bottom-1725628279 {
     position: absolute;
-    top:480px;
+    top:420px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -99,8 +99,8 @@
 .custom-shape-divider-bottom-1725628279 svg {
     position: relative;
     display: block;
-    width: calc(294% + 1.3px);
-    height: 316px;
+    width: calc(280% + 1.3px);
+    height: 300px;
 }
 
 .custom-shape-divider-bottom-1725628279 .shape-fill {
@@ -112,25 +112,27 @@
 
 
 
-  .about-us-container {
+  .aboutusbanner {
       position: relative;
       width: 100%;
-      height:900px;
+      height:fit-content;
+      background-image: url(../../img/heroAbout\ 1.png);
+background-size: 100% 1000px;
    
       /* overflow: hidden; */
   }
    
-  .background-image {
+  /* .about-us-container .background-image {
       width: 100%;
-      height: 100%;
+      height:1100px;
       object-fit: cover;
       position: absolute;
       top: 0;
       left: 0;
-      z-index: -1;
-  }
+      /* z-index: -1; */
+  
    
-  .overlay-text {
+  .about-us-container  .overlay-text {
     font-family: Inter,Arial, Helvetica, sans-serif;
     position: absolute;
     top: 40%;
@@ -139,16 +141,17 @@
     color: white;
     text-align: left;
     padding: 90px;
-
+    height:fit-content;
+    width:580px;
     border-radius: 10px;
     padding-top: 300px;
     z-index: 1;
-    font-size: 16px;
+  
     line-height:24px;
 
 }
  
-.overlay-text h1 {
+.about-us-container  .overlay-text h1 {
     overflow-y: hidden;
     font-size: 76px;
     font-weight: 700;
@@ -161,15 +164,15 @@
     margin: 0;
 }
  
-.overlay-text p {
-    overflow-y: hidden;
+.about-us-container  .overlay-text p {
+    /* overflow-y: hidden; */
     font-size: 22px;
     font-style: italic;
     font-weight: 500;
     line-height: 30.8px;
     text-decoration: none;
     text-align: left;
-    height: 61.5937px;
+    height:fit-content;
     width: 800px;
 
     margin-top: 10px;
@@ -179,25 +182,26 @@
  
 
 .flex-container {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     font-family: "Nato Serif",Arial, Helvetica, sans-serif;
     margin-top: 10px;
-    display: flex;
+ 
     align-items: center;
     font-style:italic;
     gap: 20px;
-    font-size:22px;
+
     font-weight: 500;
     line-height: 30.8px;
     text-align: left;
-    height:61.5938px;
-    width:580px;
+    height:fit-content;
+    width:600px;
     margin :23px 0 0 0 ;
     position:block;
+    display:flex ;
 }
  
 .flex-item {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
    font-family: Inter,Arial, Helvetica, sans-serif;
    font-size: 16px;
    line-height: 24px;
@@ -210,8 +214,12 @@
    display: flex;
    margin :43px 0 0 0 ;
 }
+.flex-container a {
+  width: 250px;
+  color: white;
+}
 
-.flex-item p{
+.flex-container a p{
     /* overflow-y: hidden; */
  font-family:  Inter,Arial, Helvetica, sans-serif;
  font-size: 16px;
@@ -224,7 +232,7 @@
 
 
 }
-   .flex-item  span{
+.flex-container a p span{
     /* overflow-y: hidden; */
       font-size: 32px;
       font-weight: 700;
@@ -233,14 +241,9 @@
       /* height: 35.1758px; */
       margin-top: 10px;
       font-family: "Noto Serif", Arial, Helvetica, sans-serif;
-   }
-  .flex-item span a {
-      font-size: 30px;
-      display: block;
-      font-weight: bold; /* Make text bold */
-      text-decoration: none;
       color: white;
-  }
+   }
+
    
   .flex-item span:last-child {
       font-weight: normal; /* Remove bold for the contact details and link */
@@ -255,7 +258,7 @@
   /* Vision Section */
   .vision-section {
       position: relative;
-      top:0px;
+      top:200px;
       bottom: 0px;
       left: 0px;
       right: 0px;
@@ -347,333 +350,171 @@
   }
    
   /* Responsive Styles */
-  @media (max-width: 1050px) {
-      *{
-          /* outline: #000000 solid 2px; */
-          overflow-x: hidden;
-       
-        }
-        .about-us-container {
-            position: relative;
-            width: 100%;
-            height:600px;
-            overflow: hidden;
-        }
-         
-        .background-image {
-            width: 100%;
-            height:600px;
-  /* opacity: 0.5; */
-            object-fit: cover;
-            position: absolute;
-            top: opx;
-            left: 0;
-            z-index: -1;
-        }
-         
-        /* .overlay-text {
-            position: absolute;
-            top: 40%;
-            left: 32%;
-            transform: translate(-50%, -50%);
-            color: white;
-            text-align: left;
-            padding: 90px;
-            border-radius: 10px;
-            padding-top: 300px;
-            z-index: 1;
-        }
-         
-        .overlay-text h1 {
-            font-size: 46px;
-            margin: 0;
-        }
-         
-        .overlay-text p {
-            font-size: 22px;
-            margin-top: 10px;
-        } */
-        .overlay-text {
-          top: 40%;
-          left: 50%;
-          transform: translate(-50%, -30%);
-          padding: 60px;
-          width: 70%;
-         
-      }
+
    
-      .overlay-text h1 {
-          font-size: 40px;
-      }
-   
-      .overlay-text p {
-          font-size: 25px;
-          /* color: black; */
-          font-weight: 500;
-      }
-         
-        /* Flex Container Styling */
-        .flex-container {
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-         
-        .flex-item {
-            text-align: center;
-        }
-         
-        .flex-item span {
-            display: block;
-            font-weight: bold; /* Make text bold */
-        }
-         
-        .flex-item span:last-child {
-            font-weight: normal; /* Remove bold for the contact details and link */
-        }
-         
-        .line {
-            height: 50px; /* Adjust height as needed */
-            width: 2px;
-            background-color: var(--dark-font-color);
-        }
-         
-        /* Vision Section */
-        .vision-section {
-            position: relative;
-            display: block;
-            flex-wrap: wrap-reverse;
-            align-items: center;
-            padding-left: 4%;
-            gap: 20px;
-            background-color: var(--light-bg-font-color);
-            width: 90%;
-            height:fit-content;
-            overflow: hidden;
-        }
-         
-        .vision-image {
-            /* flex: 1; */
-            /* background-size: cover; */
-            height: fit-content;
-            width: 100%;
-        }
-        .vision-image img{
-          width: 100%;
-          height: 100%;
-        }
-         
-        .vision-text {
-            position: static;
-            top: 0px;
-            right: 105px;
-            flex: 1 1;
-            padding: 28px;
-            background-color: #f8f8f8;
-            border-radius: 10px;
-            z-index: 1;
-            justify-content:justify;
-            width: 100%;
-            height: fit-content;
-        }
-         
-        .vision-text h2 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            color: #1B3C74;
-        }
-         
-        .vision-text h3 {
-            font-size: 1rem;
-            margin-top: 30px;
-            margin-bottom: 10px;
-            color: #1B3C74;
-            display: flex;
-            align-items: justify;
-            gap: 10px;
-        }
-         
-        .vision-text h3 svg {
-            width: 24px;
-            height: 24px;
-            fill: #1B3C74;
-        }
-         
-        .vision-text p {
-            font-size: 1rem;
-            line-height: 1.5;
-            width: 90%;
-            text-align: justify;
-        }
+  @Media (max-width: 768px){
+
+    .about-us-container .custom-shape-divider-bottom-1725628279 {
+      position: absolute;
+      top:620px;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+  }
+  
+  .custom-shape-divider-bottom-1725628279 svg {
+      position: relative;
+      display: block;
+      width: calc(280% + 1.3px);
+      height: 200px;
+  }
+  
+  .custom-shape-divider-bottom-1725628279 .shape-fill {
+      fill: #FFFFFF;
+  }
+  
+  
+  
+  
+  
+  
+    .aboutusbanner {
+        position: relative;
+        width: 100%;
+        height:fit-content;
+        background-image: url(../../img/heroAbout\ 1.png);
+  background-size:contain;
+  padding-bottom: 100px;
+     
+        /* overflow: hidden; */
+    }
+     
+    /* .about-us-container .background-image {
+        width: 100%;
+        height:1100px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+    
+     
+    .about-us-container  .overlay-text {
+      font-family: Inter,Arial, Helvetica, sans-serif;
+      position: absolute;
+      padding-top: 00px;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      padding: 0px;
+      height:fit-content;
+      width:100%;
+      border-radius: 10px;
+      padding-top: 0px;
+      z-index: 1;
+    
+      line-height:24px;
+      background-color: rgba(30, 31, 31,0.5);
+      padding-left: 20px;
+      /* padding-bottom: 300px; */
+      /* border-bottom-left-radius: 20%; */
+  
   }
    
-  @media (max-width: 768px){
+  .about-us-container  .overlay-text h1 {
+      overflow-y: hidden;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 36px;
+      text-decoration:none solid(255,255,255) ;
+      text-align: left;
+      word-spacing:0px;
+    font-style: italic;
+      display: block;
+      margin: 0;
+      margin-top: 400px;
+  }
+   
+  .about-us-container  .overlay-text p {
+      /* overflow-y: hidden; */
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 500;
+      line-height: 30.8px;
+      text-decoration: none;
+      text-align:left;
+      height:fit-content;
+      width: 100%;
+  
+      margin-top: 10px;
+  }
+  
+  
+   
+  
+  .flex-container {
+      /* overflow-y: hidden; */
+      font-family: "Nato Serif",Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+   
+      align-items: left;
+      font-style:italic;
+      gap: 0px;
+  
+      font-weight: 500;
+      line-height: 30.8px;
+      text-align: left;
+      height:fit-content;
+      width:100%;
+      margin :23px 0 0 0 ;
+      position:block;
+      display:flex ;
+  }
+   
 
-    .custom-shape-divider-bottom-1725628279 {
-        position: absolute;
-        top:480px;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-    }
-    
-    .custom-shape-divider-bottom-1725628279 svg {
-        position: relative;
-        display: block;
-        width: calc(294% + 1.3px);
-        height: 316px;
-    }
-    
-    .custom-shape-divider-bottom-1725628279 .shape-fill {
-        fill: #FFFFFF;
-    }
-    
-    
-    
-    
-    
-    
-      .about-us-container {
-          position: relative;
-          width: 100%;
-          height:900px;
-       
-          /* overflow: hidden; */
-      }
-       
-      .background-image {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          position: absolute;
-          top: 0;
-          left: 0;
-          z-index: -1;
-      }
-       
-      .overlay-text {
-        font-family: Inter,Arial, Helvetica, sans-serif;
-        position: absolute;
-        top: 40%;
-        left: 32%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: left;
-        padding: 90px;
-    
-        border-radius: 10px;
-        padding-top: 300px;
-        z-index: 1;
-        font-size: 16px;
-        line-height:24px;
-    
-    }
-     
-    .overlay-text h1 {
-        overflow-y: hidden;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 76px;
-        text-decoration:none solid(255,255,255) ;
-        text-align: left;
-        word-spacing:0px;
-      
-        display: block;
-        margin: 0;
-    }
-     
-    .overlay-text p {
-        overflow-y: hidden;
+  .flex-container a {
+    width: 100%;
+    color: white;
+  }
+  
+  .flex-container a p{
+      /* overflow-y: hidden; */
+   font-family:  Inter,Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration: none;
+   text-align: left;
+   /* height: 23.984px;
+   width:268.75px; */
+   height: 100px;
+  
+  
+  }
+  .flex-container a p span{
+      /* overflow-y: hidden; */
         font-size: 22px;
-        font-style: italic;
-        font-weight: 500;
-        line-height: 30.8px;
-        text-decoration: none;
+        font-weight: 700;
+        line-height: 35.2px;
         text-align: left;
-        height: 61.5937px;
-        width: 800px;
-    
+        /* height: 35.1758px; */
         margin-top: 10px;
-    }
-    
-    
+        font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+        color: white;
+     }
+  
      
-    
-    .flex-container {
-        overflow-y: hidden;
-        font-family: "Nato Serif",Arial, Helvetica, sans-serif;
-        margin-top: 10px;
-        display: flex;
-        align-items: center;
-        font-style:italic;
-        gap: 20px;
-        font-size:22px;
-        font-weight: 500;
-        line-height: 30.8px;
-        text-align: left;
-        height:61.5938px;
-        width:580px;
-        margin :23px 0 0 0 ;
-        position:block;
+    .flex-item span:last-child {
+        font-weight: normal; /* Remove bold for the contact details and link */
     }
      
-    .flex-item {
-        overflow-y: hidden;
-       font-family: Inter,Arial, Helvetica, sans-serif;
-       font-size: 16px;
-       line-height: 24px;
-       text-decoration: none;
-       text-align: left;
-       /* height:107.148px;
-       width:310px; */
-       padding: 20px 20px 20px 20px ;
-    
-       display: flex;
-       margin :43px 0 0 0 ;
+    .flex-container .line {
+        height: 50px; /* Adjust height as needed */
+        width: 2px;
+        background-color:white;
     }
-    
-    .flex-item p{
-        /* overflow-y: hidden; */
-     font-family:  Inter,Arial, Helvetica, sans-serif;
-     font-size: 16px;
-     line-height: 24px;
-     text-decoration: none;
-     text-align: left;
-     /* height: 23.984px;
-     width:268.75px; */
-     height: 100px;
-    
-    
-    }
-       .flex-item  span{
-        /* overflow-y: hidden; */
-          font-size: 32px;
-          font-weight: 700;
-          line-height: 35.2px;
-          text-align: left;
-          /* height: 35.1758px; */
-          margin-top: 10px;
-          font-family: "Noto Serif", Arial, Helvetica, sans-serif;
-       }
-      .flex-item span a {
-          font-size: 30px;
-          display: block;
-          font-weight: bold; /* Make text bold */
-          text-decoration: none;
-          color: white;
-      }
-       
-      .flex-item span:last-child {
-          font-weight: normal; /* Remove bold for the contact details and link */
-      }
-       
-      .flex-container .line {
-          height: 50px; /* Adjust height as needed */
-          width: 2px;
-          background-color:white;
-      }
        
       /* Vision Section */
       .vision-section {
@@ -684,14 +525,16 @@
           right: 0px;
           width: 100%;
           height:fit-content;
-          display: flex;
-          flex-wrap: wrap-reverse;
+          display: block;
+          /* flex-wrap: wrap-reverse; */
          font-size: 18px;
          line-height: 27px;
          text-align: left;
+         overflow-y: hidden;
+         padding-bottom: 30px;
       }
        
-      .vision-image {
+      .vision-section .vision-image {
          
           /* background-size: cover;
           height: 550px;
@@ -701,32 +544,35 @@
           font-size: 18px;
           line-height: 28px;
           width:100%;
-          height:900px;
+          height:400px;
           display:inline-block;
+          padding: 10px;
     
       }
       .vision-image img{
-          width: 50%;
-          height: 700px;
-          padding-left: 50px;
+          width: 90%;
+          height: 400px;
+          padding-left: 0px;
       }
        
       .vision-text {
-          position: absolute;
+          position: static;
            top: 0px;
-          right: 50px; 
+          right: 0px; 
           /* flex: 1 1; */
           font-size: 18px;
           line-height: 26px;
-          padding: 55px 55px 55px 55px;
+          padding:0px;
           background-color: #f8f8f8;
           color:#1B3C74;
-          margin: 100px 0 0 120px ;
+          margin:0px 0 0 0px ;
           border-radius: 10px;
           z-index: 1;
-          text-align: left;
-          width: 40%;
+          text-align: center;
+          width: 90%;
           height: fit-content;
+          margin: auto;
+          align-items: center;
       }
        
       .vision-text h2 {
@@ -735,7 +581,7 @@
         font-family: "DM Serif Display",sans-serif;
           font-size: 24px;
           line-height: 33.6px;
-          text-align: left;
+          text-align: center;
           height:auto;
           width:auto;
     

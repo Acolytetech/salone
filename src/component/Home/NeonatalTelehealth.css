@@ -15,30 +15,33 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    width: 100%;
   }
   
   .box1, .box2 {
     flex: 1;
-    padding: 37px;
+    padding: 0px;
     padding-bottom: 8em;
     padding-top: 8em;
     border-radius: 10px;
     margin-bottom: 4em;
+    width: 100%;
    
   }
   
   .box1 h2 {
     color: white;
     margin-bottom: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.05;
     height: 150px;
+    width: 100%;
 }
   
   
   .box1 p {
     color: white;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-top: .9em;
   }
   
@@ -51,6 +54,7 @@
     line-height: 0;
     /* border: solid 2px black; */
     height: 300px;
+    display: none;
     
 }
 

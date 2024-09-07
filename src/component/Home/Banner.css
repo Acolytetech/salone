@@ -11,6 +11,7 @@
     color: rgb(136, 69, 207);
     overflow-y: hidden;
     position: relative;
+    background-color: rgb(29, 221, 221);
   }
   
   /* Banner content */
@@ -138,29 +139,32 @@
     /* Banner container */
 .banner {
   background-image: url('../../img/home.png'); /* Replace with your image URL */
-  background-size: 100%  900px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position:0%;
-  height: 500px;
-  display: flex;
+  background-position:0px;
+  height: 800px;
+  display: block;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0 20px;
   color: rgb(136, 69, 207);
   overflow-y: hidden;
   position: relative;
+  margin: 0;
 }
 
 /* Banner content */
 .banner-content {
   padding: 0px;
-  padding-top: 0px;
+  padding-top: 150px;
   width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items:start; /* Align content to the left */
   overflow-y: hidden;
+  position: static;
+  
 }
 
 /* Banner text */
@@ -289,26 +293,22 @@
       display: none;
     }
   }
-  
-  .banner .custom-shape-divider-bottom-1725517865 {
+  .banner .custom-shape-divider-bottom-1725689494 {
     position: absolute;
-    top: 700px;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    /* border: solid 2px black; */
-    height: 300px;
-    
 }
 
-.custom-shape-divider-bottom-1725517865 svg {
+.custom-shape-divider-bottom-1725689494 svg {
     position: relative;
     display: block;
-    width: calc(279% + 1.3px);
-    height: 335px;
+    width: calc(280% + 1.3px);
+    height: 313px;
 }
 
-.custom-shape-divider-bottom-1725517865 .shape-fill {
-    fill: #FFFFFF;
+.custom-shape-divider-bottom-1725689494 .shape-fill {
+    fill: #E9F3FF;
 }

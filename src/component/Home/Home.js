@@ -6,13 +6,15 @@ import NeonatalTelehealth from './NeonatalTelehealth'
 import CommanQ from './CommanQ'
 import Carosel from './Carosel'
 import { Carousel } from 'react-responsive-carousel'
+import HomeService from './HomeServices'
 // import Carosel from './Carosel'
 
 
 function Home() {
   return (
-    <div>
+    <div >
       <Banner/>
+      <HomeService/>
       <NeonatologySection/>
       {/* <Carosel/>   */}
       <Carosel/>
