@@ -4,10 +4,12 @@ import Profession from './Profession'
 import NeonatologySection from './NeonatologySection'
 import NeonatalTelehealth from './NeonatalTelehealth'
 import CommanQ from './CommanQ'
-import Carosel from './Carosel'
+
 import { Carousel } from 'react-responsive-carousel'
 import HomeService from './HomeServices'
-// import Carosel from './Carosel'
+
+import Ourchannelpartner from './Ourchannelpartner'// import Carosel from './Carosel'
+// import Ourchannelpartner from './ourchannelpartner'// import Carosel from './Carosel'
 
 
 function Home() {
@@ -16,8 +18,8 @@ function Home() {
       <Banner/>
       <HomeService/>
       <NeonatologySection/>
-      {/* <Carosel/>   */}
-      <Carosel/>
+      <Ourchannelpartner/>
+
 
       <NeonatalTelehealth/>
       <Profession/>

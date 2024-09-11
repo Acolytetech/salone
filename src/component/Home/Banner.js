@@ -19,14 +19,15 @@ const Banner = () => {
           <div className="schedule-texts">
             <a href=''>
             <span className="schedule-text">Make an Appointment <br/>  
-         <span className='callno' style={{fontSize:'30px'}}> <IoCallOutline className='icon'/> 88 70 06 00</span> </span>
+           
+         <span className='callno'>  <IoCallOutline className='icon'/>  88 70 06 00</span> </span>
             
 
             </a>
           
             <hr className="vertical-divider" />
             <span className="schedule-text">Online Schedule<br/>
-            <span className='callno' style={{fontSize:'30px'}}> <FaRegCalendarCheck  className='icon'/> Book Here</span> </span>
+            <span className='callno'> <FaRegCalendarCheck  className='icon'/> Book Here</span> </span>
           </div>
         </div>
         <div class="custom-shape-divider-bottom-1725689494">

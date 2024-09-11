@@ -1,11 +1,9 @@
 import React from 'react';
 import './About.css';
-import hero from '../../img/heroAbout 1.png';
+
+
 import visionImg from '../../img/SM891296.png';
-import Wave from './Wave';
-import ServiceA from './ServiceA';
-import FunA from './FunA';
-import Partners from './Partners';
+
 import WorkingA from './WorkingA';
 import FaqComponent from './FaqComponent';
 import MissionVisionIcon from '../svg/MissionVisionIcon';

@@ -1,25 +1,26 @@
 .neonatology-section {
     display: flex;
     width: 100%;
-    height:800px;
+    height:fit-content;
+    padding-bottom: 50px;
   }
   
   .neonatology-section .image-section {
-    width: 40%;
+    width: 35%;
     padding: 10px;
     scale: 0.8;
   }
   
   .neonatology-section .image-section img {
     width: 100%;
-    height: 700px;
+    height: 600px;
     border-radius: 10px;
   }
   
   .text-section {
     font-family: Arial, sans-serif;
    scale: 1.1;
-      width:55%;
+      width:60%;
       height:fit-content;
       padding-top: 100px;
        
@@ -40,7 +41,7 @@
   
   .flex-container1 ,.flex-container2{
   
-    /* padding: 30px; */
+    margin-top:-50px;
     text-align: left;
     width: 100%;
     height:fit-content;
@@ -50,7 +51,7 @@
   .flex-container1 .flex-item {
     /* flex: 0 0 0%; Each item will take up about 48% of the width */
     width: 30%;
-    height: 150px;  
+    height: fit-content;  
     border-radius: 10px;
     text-align: left;
     color: black;
@@ -79,6 +80,7 @@
       display: block;
       width: 100%;
       height:fit-content;
+      overflow-y: hidden;
     }
     
     .neonatology-section .image-section {
@@ -86,12 +88,15 @@
       height: fit-content;
       padding: 0px;
       scale:1;
+      padding: auto;
     }
     
     .neonatology-section .image-section img {
       width: 95%;
-      height: 480px;
+    margin-left: 10px;
+      height: fit-content;
       border-radius: 10px;
+      overflow-y: hidden;
     }
     
     .text-section {
@@ -123,6 +128,7 @@
       width: 100%;
       height:fit-content;
       display: block;
+      margin-top: 0px;
       /* outline: auto; */
   }
     .flex-container1 .flex-item {
@@ -130,7 +136,7 @@
       width: 80%;
       height: fit-content;  
       border-radius: 10px;
-      text-align: center;
+      /* text-align: center; */
       color: black;
       display: block;
       /* outline: auto; */

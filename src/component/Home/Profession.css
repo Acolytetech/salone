@@ -24,7 +24,7 @@
   
   .profession-para {
     font-size: 0.9rem;
-    color: #666;
+    color: #35639c;
   }
   
   /* Responsive Design */
@@ -32,6 +32,7 @@
     .profession-container {
       flex-direction: column;
       align-items: center;
+      margin: 0px;
     }
   
     .profession-item {

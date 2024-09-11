@@ -1,8 +1,8 @@
 .home-service-container {
     max-width: 100%;
     font-size: 16px;
-    height:1167.81px;
-    width:1798.67px;
+    height:fit-content;
+    width:100%;
  
     line-height: 24px;
     margin: auto;
@@ -10,8 +10,9 @@
     font-family: Arial, sans-serif;
     background-color: #E9F3FF;
     margin-top: -40px;
-    /* margin-bottom: 200px; */
+    padding-bottom: 100px;
     z-index: 0;
+    border: none;
     
 
   }
@@ -24,6 +25,7 @@
     line-height: 63.96px;
     /* text-align: center; */
     margin-bottom: 30px;
+    color: #35639c;
   }
  
   .home-service-list {
@@ -47,7 +49,7 @@
     display: flex;
     float: left;
     flex-direction: column;
-    width: 130px;
+    width:10%;
     height: fit-content;
     border-radius: 8px;
     cursor: pointer;
@@ -66,17 +68,21 @@
  
   .home-service-icon {
     overflow: hidden;
-    font-size: 52px;
-    line-height: 82.8px;
+    font-size: 62px;
+    line-height:76px;
     height: 89px;
     width: 80px;
     color: #333;
-    margin-left: 20px;
+    margin:auto;
+    margin-top: 0px;
+    padding: 0;
+    /* outline: auto; */
   }
  
   .home-service-name {
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 0px;
+    color: #35639c;
   }
  
   .home-service-details {

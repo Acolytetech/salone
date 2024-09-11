@@ -1,18 +1,21 @@
 import React from "react";
 import "./NeonatalTelehealth.css"; 
 import home4 from '../../img/background_02 (1).jpg';
+import { FaRegCalendarCheck } from "react-icons/fa6";
+
 
 const NeonatalTelehealth = () => {
   return (
     <div className="neonatal-container">
       <div className="flex-box">
         <div className="box1">
-          <h2>Neonatal Telehealth Services Available</h2>
+          <h2>Neonatal <span>Telehealth</span> Services Available</h2>
           <p>Dedicated neonatologists are available seven days a week, 8 a.m. to 5 p.m., to provide advice through a video call.</p>
+     <div className="make-appointment">
+     <a href='/'><FaRegCalendarCheck/> Make an appointment</a>
+      </div> 
         </div>
-        <div className="box2">
-         
-        </div>
+     
       </div>
       <div class="custom-shape-divider-bottom-1725517865">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

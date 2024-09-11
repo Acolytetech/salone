@@ -5,6 +5,9 @@ import AboutUs from './component/About/About';
 import Footer from './component/footer/Footer';
 import Home from './component/Home/Home';
 import Contact from './component/contact/Contact';
+import Labtest from './component/Labtest/Labtest';
+import BookAmbulance from './component/Book-ambulance/BookAmbulance';
+import Surgery from './component/Surjery/Surjery';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -16,6 +19,9 @@ function App() {
         <Route path="/" element={<Home />} /> 
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contactus" element={<Contact />} />
+        <Route path="/labtest" element={<Labtest />} />
+        <Route path="/BookAmbulance" element={<BookAmbulance />} />
+        <Route path="/Surgery" element={<Surgery />} />
       </Routes>
       <Footer />
     </Router>

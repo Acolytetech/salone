@@ -40,6 +40,8 @@ const Slider = () => {
             onClick={() => goToSlide(index)} // Clicking on slide triggers goToSlide function to change slide index
             // You can add other click events or additional styles here if needed
           >
+            <h1 style={{textAlign:""}}>covid 19</h1>
+            <p> </p>
             
             {/* No need for nested divs if you're using inline styles */}
           </div>

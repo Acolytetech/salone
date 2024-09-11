@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import logo from '../../img/Sloane Virtual Hospital logo transparent 1.png';
-import { Link } from 'react-router-dom';
+
+
  
 const Navbar = () => {
   const [isSticky, setSticky] = useState(false);
@@ -36,8 +37,10 @@ const Navbar = () => {
         <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="/contactus">Contact us</a></li>
-          <li><a href="/elements">Elements</a></li>
+          <li><a href="/contactus">Contact us</a></li>         
+          <li><a href="/labtest">Lab-test</a></li>
+          <li><a href="/BookAmbulance">book-Ambulance</a></li>
+          <li><a href="/surgery">surgery</a></li>
         </ul>
         <div className="nav-actions">
           <a href="/search" className="search">
