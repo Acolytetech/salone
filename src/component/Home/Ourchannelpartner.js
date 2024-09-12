@@ -21,7 +21,7 @@ const Ourchannelpartner = () => {
 
       <div className='ourchnnelpartner-maindiv'>
         <div className='ourchnnelpartner-card-slider'>
-          <Swiper
+          <Swiper className='swiper'
             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} // Add Autoplay module here
             spaceBetween={50}
             slidesPerView={1}
@@ -69,7 +69,7 @@ const Ourchannelpartner = () => {
 
         <div className='ouchannelpartne-content'>
           <div className="ourchannel-partner">
-            <h2>Send us a message</h2>
+            <h2>Join Our Network: Channel Partner Inquiry</h2>
             <p>Required fields are marked with an asterisk (*).</p>
             <form>
               <label htmlFor="name">First and Last name*</label>

@@ -8,7 +8,7 @@
     padding-top: 150px;
   }
  
-  .search-bar {
+  .surgery-container .search-bar {
     margin-bottom: 20px;
     width: 60%;
     display: flex;
@@ -72,7 +72,7 @@
   .surgery-item:hover{
     outline: solid 2px blue;
     overflow: hidden;
-
+ 
   }
  
   .submit-button {
@@ -102,7 +102,7 @@
   .surgery-image img {
     width: 100%;
     height: 100%;
-
+ 
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -115,43 +115,286 @@
     margin-top: 20px;
   }
  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .surgery-content {
-      flex-direction: column;
-    }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
  
-    .surgeries-list {
+  .modal-content {
+    background-color: #fff;
+    width:30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+ 
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+ 
+  h3 {
+    font-family: "Overlock", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+ 
+  .modal-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+ 
+  .modal-form input
+  {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .modal-form select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+ 
+  .terms {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    text-align: left; 
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+  }
+ 
+  .terms input {
+    width: fit-content;
+    padding:auto;
+  }
+  .terms span{
+    width: fit-content;
+    height: fit-content;
+   
+  }
+ 
+  .submit-modal-button {
+    background-color: #3152A9;
+    color: #fff;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+ 
+  .submit-modal-button:hover {
+    background-color: #00408a;
+  }
+ 
+  
+  @media screen and (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+    
+    .surgery-container {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 100px;
+      text-align: center;
+    }
+  
+    .surgery-container .search-bar {
+      position: relative;
+      margin-bottom: 15px;
+      width: 90%;
+      margin-left: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+      /* margin-left: 0px; */
+      border-radius: 30px;
+      border: 1px solid rgb(79, 76, 76);
+    }
+  
+    .search-bar .surgery-research-icon {
+      width: 20px;
+      height: 20px;
+      font-size: 16px;
+      color: #3152A9;
+      padding: 10px;
+    }
+  
+    .search-bar .search-input {
+      width: 55%;
+      height: 50%;
+      padding-left: 0px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+      position: absolute;
+      left: 50px;
+      top: 0px;
+    }
+  
+    .surgery-heading {
+      font-family: "Overlock", sans-serif;
+      font-size: 34px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #080808;
+      text-align: center;
+    }
+  
+    .surgery-content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
       width: 100%;
     }
- 
+  
+    .surgeries-list {
+      flex: 1 1 100%;
+    }
+  
+    .surgery-item {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      font-size: 1rem;
+    }
+  
+    .surgery-item:hover {
+      outline: solid 2px blue;
+      overflow: hidden;
+    }
+  
+    .submit-button {
+      background-color: #3152A9;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 16px;
+    }
+  
+    .submit-button:hover {
+      background-color: #0056b3;
+    }
+  
     .surgery-image {
       width: 100%;
+      height: 300px;
+      margin-top: 30px;
+    }
+  
+    .surgery-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .no-results-message {
+      font-size: 16px;
+      color: #3a6ea1;
+      text-align: center;
       margin-top: 20px;
     }
- 
-    .surgery-item {
-      flex-direction: column;
-      align-items: flex-start;
+  
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
     }
- 
-    .submit-button {
-      margin-top: 10px;
+  
+    .modal-content {
+      background-color: #fff;
+      width: 90%;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    h3 {
+      font-family: "Overlock", sans-serif;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+  
+    .modal-form label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+  
+    .modal-form input,
+    .modal-form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  
+    .terms {
+      width: 100%;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .submit-modal-button {
+      background-color: #3152A9;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+  
+    .submit-modal-button:hover {
+      background-color: #00408a;
     }
   }
- 
-  @media (max-width: 480px) {
-    .surgery-heading {
-      font-size: 20px;
-    }
- 
-    .search-input {
-      font-size: 14px;
-      padding: 8px;
-    }
- 
-    .submit-button {
-      font-size: 14px;
-      padding: 8px 12px;
-    }
-  }
+  

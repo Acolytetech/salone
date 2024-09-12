@@ -68,7 +68,7 @@ const Labtest = () => {
                     filteredTests.map((test, index) => (
                         <div key={index} className="test-item">
                             <p className='test-name'>{test.name}</p>
-                            <p>
+                            <p className='rate-caddtocart'>
                                 <span>{test.price}</span>
                                 <button className='labtest-button'>Add to cart</button>
 

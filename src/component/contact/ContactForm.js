@@ -55,7 +55,7 @@ function ContactForm() {
               <p>Support Line 24/7 <br />
               <div className='support-text-flex '>
                 
-                <span className="bold-text"><FaPhoneAlt className="icon" /> 88 700 600</span>
+                <a className="bold-text"><FaPhoneAlt className="icon" />88 700 600</a>
               </div>
               </p>
             </div>

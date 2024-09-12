@@ -14,7 +14,7 @@ import Ourchannelpartner from './Ourchannelpartner'// import Carosel from './Car
 
 function Home() {
   return (
-    <div >
+    <div  style={{overflowX:'hidden'}}>
       <Banner/>
       <HomeService/>
       <NeonatologySection/>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './NeonatologySection.css';
-import home3 from '../../img/home_03.png';
+import home3 from '../../img/Neonatology banner img.png';
 import heart from '../../img/icons/heart-rate.png'
 import stra from '../../img/icons/strategic.png'
 import fav from '../../img/icons/favorite.png'

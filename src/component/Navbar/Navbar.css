@@ -26,21 +26,7 @@ top: 0px;
  
   margin-left:0%;
   transition: 1000ms;
-  /* position: static; */
 
-  
-
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 50px;
-
-  position: fixed;
-  width: calc(94%);
-
-  margin-left: 0px;
-  margin-top: 0;
-
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  transition: 2000ms; */
 }
 
 .container {
@@ -259,7 +245,7 @@ top: 0px;
     background-color: #fefdfd;
     margin-top: 10px;
 
-    width: calc(97%);
+    width: calc(90%);
     border-radius: 50px;
     z-index: 1000;
     position: fixed;
@@ -334,7 +320,8 @@ top: 0px;
   .nav-actions .button.book-appointment {
     background-color: #28a745;
     margin-right: 0px;
-    width:160px;
+    width:105%;
+    height: fit-content;
   }
   
   .nav-actions .button.book-appointment:hover {

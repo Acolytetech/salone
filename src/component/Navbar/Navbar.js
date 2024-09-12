@@ -37,16 +37,17 @@ const Navbar = () => {
         <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
           <li><a href="/contactus">Contact us</a></li>         
-          <li><a href="/labtest">Lab-test</a></li>
+          {/* <li><a href="/labtest">Lab-test</a></li>
           <li><a href="/BookAmbulance">book-Ambulance</a></li>
-          <li><a href="/surgery">surgery</a></li>
+          <li><a href="/surgery">surgery</a></li> */}
         </ul>
         <div className="nav-actions">
           <a href="/search" className="search">
             <i className="fas fa-search"></i>
           </a>
-          <a href="/book-appointment" className="button book-appointment">
+          <a href="/bookappointment" className="button book-appointment">
             Book Appointment
           </a>
           <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>

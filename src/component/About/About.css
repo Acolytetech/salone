@@ -1,27 +1,282 @@
+.about-us-container .custom-shape-divider-bottom-1725628279 {
+  position: absolute;
+  top: 420px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1725628279 svg {
+  position: relative;
+  display: block;
+  width: calc(280% + 1.3px);
+  height: 300px;
+}
+
+.custom-shape-divider-bottom-1725628279 .shape-fill {
+  fill: #FFFFFF;
+}
 
 
 
 
+
+
+.aboutusbanner {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  background-image: url(../../img/heroAbout\ 1.png);
+  background-size: 100% 1000px;
+  padding-bottom: 0px;
+}
+.about-us-container .overlay-text {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+  padding: 90px;
+  height: fit-content;
+  width: 580px;
+  border-radius: 10px;
+  padding-top: 300px;
+  z-index: 1;
+
+  line-height: 24px;
+
+}
+
+.about-us-container .overlay-text h1 {
+  overflow-y: hidden;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 76px;
+  text-decoration: none solid(255, 255, 255);
+  text-align: left;
+  word-spacing: 0px;
+
+  display: block;
+  margin: 0;
+}
+
+.about-us-container .overlay-text p {
+  /* overflow-y: hidden; */
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 30.8px;
+  text-decoration: none;
+  text-align: left;
+  height: fit-content;
+  width: 800px;
+
+  margin-top: 10px;
+}
+
+
+
+
+.flex-container {
+  /* overflow-y: hidden; */
+  font-family: "Nato Serif", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+
+  align-items: center;
+  font-style: italic;
+  gap: 20px;
+
+  font-weight: 500;
+  line-height: 30.8px;
+  text-align: left;
+  height: fit-content;
+  width: 600px;
+  margin: 23px 0 0 0;
+  position: block;
+  display: flex;
+}
+
+.flex-item {
+  /* overflow-y: hidden; */
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: left;
+  /* height:107.148px;
+   width:310px; */
+  padding: 20px 20px 20px 20px;
+
+  display: flex;
+  margin: 43px 0 0 0;
+}
+
+.flex-container a {
+  width: 250px;
+  color: white;
+}
+
+.flex-container a p {
+  /* overflow-y: hidden; */
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: left;
+  /* height: 23.984px;
+ width:268.75px; */
+  height: 100px;
+
+
+}
+
+.flex-container a p span {
+  /* overflow-y: hidden; */
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+  /* height: 35.1758px; */
+  margin-top: 10px;
+  font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+.flex-item span:last-child {
+  font-weight: normal;
+  /* Remove bold for the contact details and link */
+}
+
+.flex-container .line {
+  height: 50px;
+  /* Adjust height as needed */
+  width: 2px;
+  background-color: white;
+}
+
+/* Vision Section */
+.vision-section {
+  position: relative;
+  top: 100px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.vision-image {
+
+  /* background-size: cover;
+      height: 550px;
+      width: 50%; */
+
+  font-family: Questrial;
+  font-size: 18px;
+  line-height: 28px;
+  width: 100%;
+  height: 900px;
+  display: inline-block;
+
+}
+
+.vision-image img {
+  width: 50%;
+  height: 700px;
+  padding-left: 50px;
+}
+
+.vision-text {
+  position: absolute;
+  top: -50px;
+  right: 50px;
+  /* flex: 1 1; */
+  font-size: 18px;
+  line-height: 26px;
+  padding: 55px 55px 55px 55px;
+  background-color: #f8f8f8;
+  color: #1B3C74;
+  margin: 100px 0 0 120px;
+  border-radius: 10px;
+  z-index: 1;
+  text-align: left;
+  width: 40%;
+  height: fit-content;
+}
+
+.vision-text h2 {
+  overflow-y: hidden;
+
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 24px;
+  line-height: 33.6px;
+  text-align: left;
+  height: auto;
+  width: auto;
+
+  margin-bottom: 10px;
+  color: #1B3C74;
+}
+
+.vision-text h3 {
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #1B3C74;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vision-text h3 svg {
+  width: 24px;
+  line-height: 24px;
+  height: 55.9766px;
+  /* width: */
+  font-size: 24px;
+  height: 24px;
+  fill: #1B3C74;
+}
+
+.vision-text p {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+
+/* Responsive Styles */
+
+
+@Media (max-width: 768px) {
 
   .about-us-container .custom-shape-divider-bottom-1725628279 {
     position: absolute;
-    top:420px;
+    top: 620px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-}
+  }
 
-.custom-shape-divider-bottom-1725628279 svg {
+  .custom-shape-divider-bottom-1725628279 svg {
     position: relative;
     display: block;
     width: calc(280% + 1.3px);
-    height: 300px;
-}
+    height: 200px;
+  }
 
-.custom-shape-divider-bottom-1725628279 .shape-fill {
+  .custom-shape-divider-bottom-1725628279 .shape-fill {
     fill: #FFFFFF;
-}
+  }
 
 
 
@@ -29,284 +284,17 @@
 
 
   .aboutusbanner {
-      position: relative;
-      width: 100%;
-      height:fit-content;
-      background-image: url(../../img/heroAbout\ 1.png);
-background-size: 100% 1000px;
-   
-      /* overflow: hidden; */
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-image: url(../../img/heroAbout\ 1.png);
+    background-size: contain;
+    padding-bottom: 100px;
+
+    /* overflow: hidden; */
   }
-   
+
   /* .about-us-container .background-image {
-      width: 100%;
-      height:1100px;
-      object-fit: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
-      /* z-index: -1; */
-  
-   
-  .about-us-container  .overlay-text {
-    font-family: Inter,Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 40%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: left;
-    padding: 90px;
-    height:fit-content;
-    width:580px;
-    border-radius: 10px;
-    padding-top: 300px;
-    z-index: 1;
-  
-    line-height:24px;
-
-}
- 
-.about-us-container  .overlay-text h1 {
-    overflow-y: hidden;
-    font-size: 76px;
-    font-weight: 700;
-    line-height: 76px;
-    text-decoration:none solid(255,255,255) ;
-    text-align: left;
-    word-spacing:0px;
-  
-    display: block;
-    margin: 0;
-}
- 
-.about-us-container  .overlay-text p {
-    /* overflow-y: hidden; */
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 30.8px;
-    text-decoration: none;
-    text-align: left;
-    height:fit-content;
-    width: 800px;
-
-    margin-top: 10px;
-}
-
-
- 
-
-.flex-container {
-    /* overflow-y: hidden; */
-    font-family: "Nato Serif",Arial, Helvetica, sans-serif;
-    margin-top: 10px;
- 
-    align-items: center;
-    font-style:italic;
-    gap: 20px;
-
-    font-weight: 500;
-    line-height: 30.8px;
-    text-align: left;
-    height:fit-content;
-    width:600px;
-    margin :23px 0 0 0 ;
-    position:block;
-    display:flex ;
-}
- 
-.flex-item {
-    /* overflow-y: hidden; */
-   font-family: Inter,Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   line-height: 24px;
-   text-decoration: none;
-   text-align: left;
-   /* height:107.148px;
-   width:310px; */
-   padding: 20px 20px 20px 20px ;
-
-   display: flex;
-   margin :43px 0 0 0 ;
-}
-.flex-container a {
-  width: 250px;
-  color: white;
-}
-
-.flex-container a p{
-    /* overflow-y: hidden; */
- font-family:  Inter,Arial, Helvetica, sans-serif;
- font-size: 16px;
- line-height: 24px;
- text-decoration: none;
- text-align: left;
- /* height: 23.984px;
- width:268.75px; */
- height: 100px;
-
-
-}
-.flex-container a p span{
-    /* overflow-y: hidden; */
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 35.2px;
-      text-align: left;
-      /* height: 35.1758px; */
-      margin-top: 10px;
-      font-family: "Noto Serif", Arial, Helvetica, sans-serif;
-      color: white;
-   }
-
-   
-  .flex-item span:last-child {
-      font-weight: normal; /* Remove bold for the contact details and link */
-  }
-   
-  .flex-container .line {
-      height: 50px; /* Adjust height as needed */
-      width: 2px;
-      background-color:white;
-  }
-   
-  /* Vision Section */
-  .vision-section {
-      position: relative;
-      top:200px;
-      bottom: 0px;
-      left: 0px;
-      right: 0px;
-      width: 100%;
-      height:fit-content;
-      display: flex;
-      flex-wrap: wrap-reverse;
-     font-size: 18px;
-     line-height: 27px;
-     text-align: left;
-  }
-   
-  .vision-image {
-     
-      /* background-size: cover;
-      height: 550px;
-      width: 50%; */
-
-      font-family: Questrial;
-      font-size: 18px;
-      line-height: 28px;
-      width:100%;
-      height:900px;
-      display:inline-block;
-
-  }
-  .vision-image img{
-      width: 50%;
-      height: 700px;
-      padding-left: 50px;
-  }
-   
-  .vision-text {
-      position: absolute;
-       top: 0px;
-      right: 50px; 
-      /* flex: 1 1; */
-      font-size: 18px;
-      line-height: 26px;
-      padding: 55px 55px 55px 55px;
-      background-color: #f8f8f8;
-      color:#1B3C74;
-      margin: 100px 0 0 120px ;
-      border-radius: 10px;
-      z-index: 1;
-      text-align: left;
-      width: 40%;
-      height: fit-content;
-  }
-   
-  .vision-text h2 {
-    overflow-y: hidden; 
-    
-    font-family: "DM Serif Display",sans-serif;
-      font-size: 24px;
-      line-height: 33.6px;
-      text-align: left;
-      height:auto;
-      width:auto;
-
-      margin-bottom: 10px;
-      color: #1B3C74;
-  }
-   
-  .vision-text h3 {
-      font-size: 1rem;
-      margin-top: 30px;
-      margin-bottom: 10px;
-      color: #1B3C74;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-  }
-   
-  .vision-text h3 svg {
-      width: 24px;
-      line-height: 24px;
-      height:55.9766px;
-      /* width: */
-      font-size: 24px;
-      height: 24px;
-      fill: #1B3C74;
-  }
-   
-  .vision-text p {
-      font-size: 18px;
-      line-height: 27px;
-      text-align: left;
-  }
-   
-  /* Responsive Styles */
-
-   
-  @Media (max-width: 768px){
-
-    .about-us-container .custom-shape-divider-bottom-1725628279 {
-      position: absolute;
-      top:620px;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-  }
-  
-  .custom-shape-divider-bottom-1725628279 svg {
-      position: relative;
-      display: block;
-      width: calc(280% + 1.3px);
-      height: 200px;
-  }
-  
-  .custom-shape-divider-bottom-1725628279 .shape-fill {
-      fill: #FFFFFF;
-  }
-  
-  
-  
-  
-  
-  
-    .aboutusbanner {
-        position: relative;
-        width: 100%;
-        height:fit-content;
-        background-image: url(../../img/heroAbout\ 1.png);
-  background-size:contain;
-  padding-bottom: 100px;
-     
-        /* overflow: hidden; */
-    }
-     
-    /* .about-us-container .background-image {
         width: 100%;
         height:1100px;
         object-fit: cover;
@@ -314,357 +302,373 @@ background-size: 100% 1000px;
         top: 0;
         left: 0;
         /* z-index: -1; */
-    
-     
-    .about-us-container  .overlay-text {
-      font-family: Inter,Arial, Helvetica, sans-serif;
-      position: absolute;
-      padding-top: 00px;
-      top: 20%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      text-align: center;
-      padding: 0px;
-      height:fit-content;
-      width:100%;
-      border-radius: 10px;
-      padding-top: 0px;
-      z-index: 1;
-    
-      line-height:24px;
-      background-color: rgba(30, 31, 31,0.5);
-      padding-left: 20px;
-      /* padding-bottom: 300px; */
-      /* border-bottom-left-radius: 20%; */
-  
+
+
+  .about-us-container .overlay-text {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding-top: 00px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 0px;
+    height: fit-content;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 0px;
+    z-index: 1;
+
+    line-height: 24px;
+    background-color: rgba(30, 31, 31, 0.5);
+    padding-left: 20px;
+    /* padding-bottom: 300px; */
+    /* border-bottom-left-radius: 20%; */
+
   }
-   
-  .about-us-container  .overlay-text h1 {
-      overflow-y: hidden;
-      font-size: 36px;
-      font-weight: 700;
-      line-height: 36px;
-      text-decoration:none solid(255,255,255) ;
-      text-align: left;
-      word-spacing:0px;
+
+  .about-us-container .overlay-text h1 {
+    overflow-y: hidden;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-decoration: none solid(255, 255, 255);
+    text-align: left;
+    word-spacing: 0px;
     font-style: italic;
-      display: block;
-      margin: 0;
-      margin-top: 400px;
+    display: block;
+    margin: 0;
+    margin-top: 400px;
   }
-   
-  .about-us-container  .overlay-text p {
-      /* overflow-y: hidden; */
-      font-size: 16px;
-      font-style: italic;
-      font-weight: 500;
-      line-height: 30.8px;
-      text-decoration: none;
-      text-align:left;
-      height:fit-content;
-      width: 100%;
-  
-      margin-top: 10px;
+
+  .about-us-container .overlay-text p {
+    /* overflow-y: hidden; */
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30.8px;
+    text-decoration: none;
+    text-align: left;
+    height: fit-content;
+    width: 100%;
+
+    margin-top: 10px;
   }
-  
-  
-   
-  
+
+
+
+
   .flex-container {
-      /* overflow-y: hidden; */
-      font-family: "Nato Serif",Arial, Helvetica, sans-serif;
-      margin-top: 10px;
-   
-      align-items: left;
-      font-style:italic;
-      gap: 0px;
-  
-      font-weight: 500;
-      line-height: 30.8px;
-      text-align: left;
-      height:fit-content;
-      width:100%;
-      margin :23px 0 0 0 ;
-      position:block;
-      display:flex ;
+    /* overflow-y: hidden; */
+    font-family: "Nato Serif", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+
+    align-items: left;
+    font-style: italic;
+    gap: 0px;
+
+    font-weight: 500;
+    line-height: 30.8px;
+    text-align: left;
+    height: fit-content;
+    width: 100%;
+    margin: 23px 0 0 0;
+    position: block;
+    display: flex;
   }
-   
+
 
   .flex-container a {
     width: 100%;
     color: white;
   }
-  
-  .flex-container a p{
-      /* overflow-y: hidden; */
-   font-family:  Inter,Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   line-height: 24px;
-   text-decoration: none;
-   text-align: left;
-   /* height: 23.984px;
+
+  .flex-container a p {
+    /* overflow-y: hidden; */
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: left;
+    /* height: 23.984px;
    width:268.75px; */
-   height: 100px;
-  
-  
+    height: 100px;
+
+
   }
-  .flex-container a p span{
-      /* overflow-y: hidden; */
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 35.2px;
-        text-align: left;
-        /* height: 35.1758px; */
-        margin-top: 10px;
-        font-family: "Noto Serif", Arial, Helvetica, sans-serif;
-        color: white;
-     }
-  
-     
-    .flex-item span:last-child {
-        font-weight: normal; /* Remove bold for the contact details and link */
-    }
-     
-    .flex-container .line {
-        height: 50px; /* Adjust height as needed */
-        width: 2px;
-        background-color:white;
-    }
-       
-      /* Vision Section */
-      .vision-section {
-          position: relative;
-          top:0px;
-          bottom: 0px;
-          left: 0px;
-          right: 0px;
-          width: 100%;
-          height:fit-content;
-          display: block;
-          /* flex-wrap: wrap-reverse; */
-         font-size: 18px;
-         line-height: 27px;
-         text-align: left;
-         overflow-y: hidden;
-         padding-bottom: 30px;
-      }
-       
-      .vision-section .vision-image {
-         
-          /* background-size: cover;
+
+  .flex-container a p span {
+    /* overflow-y: hidden; */
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: left;
+    /* height: 35.1758px; */
+    margin-top: 10px;
+    font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+
+  .flex-item span:last-child {
+    font-weight: normal;
+    /* Remove bold for the contact details and link */
+  }
+
+  .flex-container .line {
+    height: 50px;
+    /* Adjust height as needed */
+    width: 2px;
+    background-color: white;
+  }
+
+  /* Vision Section */
+  .vision-section {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: fit-content;
+    display: block;
+    /* flex-wrap: wrap-reverse; */
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    overflow-y: hidden;
+    padding-bottom: 30px;
+  }
+
+  .vision-section .vision-image {
+
+    /* background-size: cover;
           height: 550px;
           width: 50%; */
-    
-          font-family: Questrial;
-          font-size: 18px;
-          line-height: 28px;
-          width:100%;
-          height:400px;
-          display:inline-block;
-          padding: 10px;
-    
-      }
-      .vision-image img{
-          width: 90%;
-          height: 400px;
-          padding-left: 0px;
-      }
-       
-      .vision-text {
-          position: static;
-           top: 0px;
-          right: 0px; 
-          /* flex: 1 1; */
-          font-size: 18px;
-          line-height: 26px;
-          padding:0px;
-          background-color: #f8f8f8;
-          color:#1B3C74;
-          margin:0px 0 0 0px ;
-          border-radius: 10px;
-          z-index: 1;
-          text-align: center;
-          width: 90%;
-          height: fit-content;
-          margin: auto;
-          align-items: center;
-      }
-       
-      .vision-text h2 {
-        overflow-y: hidden; 
-        
-        font-family: "DM Serif Display",sans-serif;
-          font-size: 24px;
-          line-height: 33.6px;
-          text-align: center;
-          height:auto;
-          width:auto;
-    
-          margin-bottom: 10px;
-          color: #1B3C74;
-      }
-       
-      .vision-text h3 {
-          font-size: 1rem;
-          margin-top: 30px;
-          margin-bottom: 10px;
-          color: #1B3C74;
-          display: flex;
-          align-items: center;
-          gap: 10px;
-      }
-       
-      .vision-text h3 svg {
-          width: 24px;
-          line-height: 24px;
-          height:55.9766px;
-          /* width: */
-          font-size: 24px;
-          height: 24px;
-          fill: #1B3C74;
-      }
-       
-      .vision-text p {
-          font-size: 18px;
-          line-height: 27px;
-          text-align: left;
-      }
-       
-  }    
-     
-   
-   
-     
-   
-       
-   
-  FAQ CSS STYLE
-   
-  /* Main container styling */
-  .faq-container {
-    margin: 0 auto;
-    padding: 20px; /* Adjusted padding for smaller screens */
-    border-radius: 10px;
-    background-color: #fff;
-    width: 96%;
+
+    font-family: Questrial;
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    padding: 10px;
+
   }
-   
-  /* Span styling */
-  .faq-span {
-    display: block;
+
+  .vision-image img {
+    width: 90%;
+    height: 400px;
+    padding-left: 0px;
+  }
+
+  .vision-text {
+    position: static;
+    top: 0px;
+    right: 0px;
+    /* flex: 1 1; */
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0px;
+    background-color: #f8f8f8;
+    color: #1B3C74;
+    margin: 0px 0 0 0px;
+    border-radius: 10px;
+    z-index: 1;
     text-align: center;
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    align-items: center;
+  }
+
+  .vision-text h2 {
+    overflow-y: hidden;
+
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    text-align: center;
+    height: auto;
+    width: auto;
+
+    margin-bottom: 10px;
+    color: #1B3C74;
+  }
+
+  .vision-text h3 {
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #1B3C74;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .vision-text h3 svg {
+    width: 24px;
+    line-height: 24px;
+    height: 55.9766px;
+    /* width: */
+    font-size: 24px;
+    height: 24px;
+    fill: #1B3C74;
+  }
+
+  .vision-text p {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+}
+
+
+
+
+
+
+
+FAQ CSS STYLE
+
+/* Main container styling */
+.faq-container {
+  margin: 0 auto;
+  padding: 20px;
+  /* Adjusted padding for smaller screens */
+  border-radius: 10px;
+  background-color: #fff;
+  width: 96%;
+}
+
+/* Span styling */
+.faq-span {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+/* Heading styling */
+.faq-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* FAQ item styling */
+.faq-item {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+/* Question styling */
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Align items vertically centered */
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #f1f1f1;
+}
+
+/* Question text styling */
+.faq-question-text {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Toggle icon styling */
+.faq-toggle {
+  font-size: 24px;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+/* Answer styling */
+.faq-answer {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 764px) {
+  .faq-container {
+    width: 95%;
+    padding: 15px;
+    /* Reduced padding for tablets */
+  }
+
+  .faq-heading {
+    font-size: 20px;
+    /* Adjusted font size */
+    margin-bottom: 15px;
+  }
+
+  .faq-question-text {
+    width: 90%;
+    font-size: 16px;
+    /* Adjusted font size */
+  }
+
+  .faq-toggle {
+    margin-right: 10px;
+    font-size: 20px;
+    /* Adjusted icon size */
+  }
+
+  .faq-answer {
+    width: 90%;
     font-size: 14px;
-    color: #888;
+    /* Adjusted font size */
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  .faq-container {
+    padding: 10px;
+    /* Further reduced padding for mobile screens */
+  }
+
+  .faq-heading {
+    font-size: 18px;
+    /* Adjusted font size */
     margin-bottom: 10px;
   }
-   
-  /* Heading styling */
-  .faq-heading {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-   
-  /* FAQ item styling */
-  .faq-item {
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-  }
-   
-  /* Question styling */
+
   .faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Align items vertically centered */
-    cursor: pointer;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    padding: 8px;
+    /* Reduced padding */
   }
-   
-  .faq-question:hover {
-    background-color: #f1f1f1;
-  }
-   
-  /* Question text styling */
+
   .faq-question-text {
-    font-size: 18px;
-    color: #333;
+    font-size: 14px;
+    /* Adjusted font size */
   }
-   
-  /* Toggle icon styling */
+
   .faq-toggle {
-    font-size: 24px;
-    color: #888;
-    transition: color 0.3s ease;
+    font-size: 18px;
+    /* Adjusted icon size */
   }
-   
-  /* Answer styling */
+
   .faq-answer {
-    margin-top: 10px;
-    padding-left: 20px;
-    font-size: 16px;
-    color: #666;
+    font-size: 12px;
+    /* Adjusted font size */
+    padding-left: 10px;
+    /* Reduced padding */
   }
-   
-  /* Responsive styles for tablets */
-  @media (max-width: 764px) {
-    .faq-container {
-      width: 95%;
-      padding: 15px; /* Reduced padding for tablets */
-    }
-   
-    .faq-heading {
-      font-size: 20px; /* Adjusted font size */
-      margin-bottom: 15px;
-    }
-   
-    .faq-question-text {
-      width: 90%;
-      font-size: 16px; /* Adjusted font size */
-    }
-   
-    .faq-toggle {
-      margin-right: 10px;
-      font-size: 20px; /* Adjusted icon size */
-    }
-   
-    .faq-answer {
-      width: 90%;
-      font-size: 14px; /* Adjusted font size */
-    }
-  }
-   
-  /* Responsive styles for mobile devices */
-  @media (max-width: 480px) {
-    .faq-container {
-      padding: 10px; /* Further reduced padding for mobile screens */
-    }
-   
-    .faq-heading {
-      font-size: 18px; /* Adjusted font size */
-      margin-bottom: 10px;
-    }
-   
-    .faq-question {
-      padding: 8px; /* Reduced padding */
-    }
-   
-    .faq-question-text {
-      font-size: 14px; /* Adjusted font size */
-    }
-   
-    .faq-toggle {
-      font-size: 18px; /* Adjusted icon size */
-    }
-   
-    .faq-answer {
-      font-size: 12px; /* Adjusted font size */
-      padding-left: 10px; /* Reduced padding */
-    }
-  }
-   
-   
+}
