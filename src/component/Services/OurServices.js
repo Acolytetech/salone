@@ -5,7 +5,7 @@ const services = [
     title: "Book Appointment",
     content:
       "Consult with any doctor from 18 departments at any time and anywhere",
-    link: "",
+    link:"/bookappointment",
     icon: "",
   },
   {
@@ -18,20 +18,20 @@ const services = [
     title: "Lab test",
     content:
       "Consult with any doctor from 18 departments at any time and anywhere",
-    link: "",
+    link: "/labtest",
     icon: "",
   },
   {
     title: "Book Ambulance",
     content: "Buy Medicines and Essentials items at best prices",
-    link: "",
+    link: "/BookAmbulance",
     icon: "",
   },
   {
     title: "Surgery",
     content:
       "Consult with any doctor from 18 departments at any time and anywhere",
-    link: "",
+    link: "/Surgery",
     icon: "",
   },
 ];
@@ -55,18 +55,20 @@ const OurServices = () => {
                   <p className={styles.content}>{service.content}</p>
                 </div>
                 <div style={{ textAlign: "end" }}>
-                  <button className={styles.miniBtn}>
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "52%",
-                        left: "50%",
-                        transform: "translate(-50%, -50%)",
-                      }}
-                    >
-                      <HiOutlineArrowNarrowRight size={20} />
-                    </div>
-                  </button>
+                  <a href={service.link} className={styles.miniBtnLink}>
+                    <button className={styles.miniBtn}>
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "52%",
+                          left: "50%",
+                          transform: "translate(-50%, -50%)",
+                        }}
+                      >
+                        <HiOutlineArrowNarrowRight size={20} />
+                      </div>
+                    </button>
+                  </a>
                 </div>
               </div>
             );

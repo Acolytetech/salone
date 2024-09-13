@@ -1,24 +1,23 @@
 /* Banner container */
-
 .banner {
   background-image: url('../../img/home\ banner\ img.png');
   /* Replace with your image URL */
   background-size: cover;
   background-position: center;
-  height: 900px;
+  height: 65rem; /* 900px */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
-  color:white;
+  padding: 0 1.5rem; /* 20px */
+  color: white;
   overflow-y: hidden;
   position: relative;
-  background-color:rgb(164, 164, 219);
+  background-color: rgb(164, 164, 219);
 }
 
 .banner .custom-shape-divider-bottom-1725689494 {
   position: absolute;
-  top: 700px;
+  top: 50rem; /* 700px */
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -29,7 +28,7 @@
   position: relative;
   display: block;
   width: calc(280% + 1.3px);
-  height: 313px;
+  height: 19.56rem; /* 313px */
 }
 
 .custom-shape-divider-bottom-1725689494 .shape-fill {
@@ -38,50 +37,70 @@
 
 /* Banner content */
 .banner-content {
-  padding: 90px;
-  padding-top: 0px;
+  padding: 5.625rem; /* 90px */
+  padding-top: 7rem;
   width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* Align content to the left */
   overflow-y: hidden;
-  padding-left: 30px;
+  padding-left: 10rem; /* 30px */
 }
 
 /* Banner text */
 .banner-text {
   width: 50%;
-  font-size: 76px;
-  margin-bottom: 20px;
+  font-size: 8rem; /* 128px */
+  margin-bottom: 1.25rem; /* 20px */
   text-align: left;
-  /* Align text to the left */
-  line-height: 76px;
+  line-height: 8rem; /* 76px */
   overflow-y: hidden;
-  /* font-style: italic; */
-  font-weight: 700;
+  font-weight: 800;
   font-family: "overlock", sans-serif;
-  
 }
 
 /* Highlighted text */
 .highlight {
   color: white;
-  /* Yellow color for 'first choice' */
 }
 
-/* Neonatology highlighted text */
 .neonatology {
   color: #f46d67;
-  /* Red color for 'neonatology' */
 }
 
 /* Button container */
 .buttons-container {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 2rem; /* 10px */
+  margin-bottom: 1.25rem; /* 20px */
+}
+/* Button styles */
+.btn {
+  background-color: transparent;
+  border-radius: 6.25rem; /* 100px */
+  border: solid 0.0625rem white;
+  color: white;
+  padding: 1rem 3rem; /* 20px 30px */
+  font-size:1.2rem; /* 14px */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 700;
+  margin-top: 1.25rem; /* 20px */
+}
+
+.btn2 {
+  background-color: #f46d67;
+}
+
+.btn2:hover {
+  color: #f46d67;
+  background-color: #FFFFFF;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: #3322af;
 }
 
 /* Schedule container */
@@ -89,8 +108,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width:fit-content;
-  /* Align content to the left */
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .schedule-texts {
@@ -99,444 +118,85 @@
   width: 100%;
   font-weight: bold;
   color: white;
-
 }
 
 .schedule-text {
-
   text-align: left;
-  margin-right: 10px;
-  /* color: rgb(77, 28, 183); */
-  width: 200px;
+  margin-right: 0.625rem; /* 10px */
+  width: 12.5rem; /* 200px */
   color: white;
-
-}
-
-.schedule-texts a {
   text-decoration: none;
-  /* border: solid 2px #ccc; */
 }
-.schedule-text .callno{
-  width: 100%;
-  font-size: 30px;
+.schedule-container .schedule-texts a{
+  text-decoration: none;
+  width:fit-content;
+ 
+}
+
+
+.schedule-text .callno {
+  width:20rem;
+  font-size: 3rem; /* 30px */
   display: flex;
 }
 
-
 .schedule-texts .schedule-text:hover .callno {
-  text-decoration: none;
-  color:#f46d67;
+  color: #f46d67;
 }
-.call .icon{
-  color: white;
-}
-.schedule-texts .schedule-text:hover .callno .icon {
-  text-decoration: none;
-  color:#f46d67;
 
+.schedule-texts .schedule-text:hover .callno .icon {
+  color: #f46d67;
 }
 
 .vertical-divider {
   border: none;
-  border-left: 1px solid white;
-  height: 40px;
-  /* Adjust height to match text height */
-  margin: 0 10px;
+  border-left: 0.0625rem solid white; /* 1px */
+  height: 5rem; /* 40px */
+  margin: 0 0.625rem; /* 10px */
+  margin-right: 2rem;
 }
 
-/* Button styles */
-.btn {
-  background-color:transparent;
-  /* border: 2px solid white; */
-  border-radius: 100px;
-  border:solid 1px white;
-  color: white;
-  padding: 20px 30px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  font-size: 14px;
-  margin-left: 0px;
-  font-weight: 900;
-  margin-top: 20px;
-}
 
-.btn2 {
-  background-color: #f46d67;
 
-}
+@media screen and (max-width: 48rem) { /* 768px */
 
-.btn2:hover {
-  color:#f46d67;
-  background-color: #FFFFFF;
-  transition: ease-in-out 3000;
-}
-
-.btn1:hover {
-  background-color: white;
-  color: #3322af;
-  /* border: 2PX solid #3322af; */
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-
-  /* Banner container */
   .banner {
-    /* background-image: url('../../img/home.png'); */
-background-size: 50% contain;
+    background-size: 50% contain;
     background-repeat: no-repeat;
-    /* background-position: 0px; */
-    height: 700px;
+    height: 43.75rem; /* 700px */
     display: block;
     align-items: center;
-    /* justify-content: center; */
-    padding: 0 20px;
-    /* color: rgb(136, 69, 207); */
+    padding: 0 1.25rem; /* 20px */
     overflow-y: hidden;
     position: relative;
     margin: 0;
-    
   }
+  
   .banner .custom-shape-divider-bottom-1725689494 {
-    position: absolute;
-    top: 500px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+    top: 31.25rem; /* 500px */
   }
-  
+
   .custom-shape-divider-bottom-1725689494 svg {
-    position: relative;
-    display: block;
-    width: calc(280% + 1.3px);
-    height: 213px;
+    height: 13.31rem; /* 213px */
   }
-  
-  .custom-shape-divider-bottom-1725689494 .shape-fill {
-    fill: #E9F3FF;
-  }
-  
-  /* Banner content */
+
   .banner-content {
-    padding: 0px;
-    padding-top: 100px;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    /* Align content to the left */
-    overflow-y: hidden;
-    position: static;
-
+    padding: 0;
+    padding-top: 6.25rem; /* 100px */
   }
 
-  /* Banner text */
   .banner .banner-text {
     width: 90%;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-align: left;
-    /* Align text to the left */
-    line-height: 2.5rem;
-    overflow-y: hidden;
-    font-style: italic;
-    font-weight: 500;
-  }
-
-
-
-  /* Button container */
-  .buttons-container {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  /* Schedule container */
-  .schedule-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /* Align content to the left */
+    font-size: 2.5rem; /* 40px */
+    line-height: 2.5rem; /* 40px */
   }
 
   .divider {
-    border: none;
-    border-top: 1px solid white;
-    margin: 10px 0;
     width: 100%;
   }
 
-  /* Schedule texts and divider */
-  .schedule-texts {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    font-weight: bold;
-    color: rgb(136, 69, 207);
-
-  }
-
-  .schedule-text {
-
-    text-align: left;
-    margin-right: 10px;
-    color: rgb(146, 61, 238);
-
-  }
-
-  .schedule-texts a {
-    text-decoration: none;
-    /* border: solid 2px #ccc; */
-  }
-
-  .schedule-texts .schedule-text:hover .callno {
-    text-decoration: none;
-    color: rgb(32, 76, 217);
-  }
-
-  .schedule-texts .schedule-text:hover .icon {
-    text-decoration: none;
-    color: rgb(45, 21, 224);
-  }
-
-  .vertical-divider {
-    border: none;
-    border-left: 1px solid white;
-    height: 40px;
-    /* Adjust height to match text height */
-    margin: 0 10px;
-  }
-
-  /* Button styles */
   .btn {
-    background-color: #3322af;
-    /* border: 2px solid white; */
-    border-radius: 100px;
-    color: white;
-    padding: 20px 40px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 20px;
-    margin-left: 0px;
-    font-weight: 900;
-    margin-top: 20px;
-    border: transparent;
+    padding: 0.5rem 1rem; /* 8px 16px */
+    font-size: 0.9rem; /* 14px */
   }
-
-  .btn2 {
-    background-color: rgb(136, 69, 207);
-  }
-
-  .btn2:hover {
-    color: rgb(136, 69, 207);
-    background-color: #FFFFFF;
-  }
-
-  .btn1:hover {
-    background-color: white;
-    color: #3322af;
-    /* border: 2PX solid #3322af; */
-  }
-
-  .banner-text {
-    font-size: 1.5em;
-  }
-
-  .btn {
-    font-size: 0.9em;
-    padding: 8px 16px;
-  }
-
-  .schedule-texts {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .vertical-divider {
-    display: none;
-  }
-}
-
-@media screen and (min-width:768px) and (max-width:1064px){
-
-  /* Banner container */
-.banner {
-  background-image: url('../../img/home.png');
-  /* Replace with your image URL */
-  background-size: cover;
-  background-position: center;
-  height: 900px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
-  color: rgb(136, 69, 207);
-  overflow-y: hidden;
-  position: relative;
-  background-color:rgb(164, 164, 219);
-  border: none;
-}
-
-.banner .custom-shape-divider-bottom-1725689494 {
-  position: absolute;
-  top: 700px;
-  left: 0;
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  line-height: 0;
-  border: none;
-}
-
-.custom-shape-divider-bottom-1725689494 svg {
-  position: relative;
-  display: block;
-  width: calc(280% + 1.3px);
-  height: 205px;
-  margin-top: 0px;
-  border: 0px;
-
-}
-
-.custom-shape-divider-bottom-1725689494 .shape-fill {
-  fill: #E9F3FF;
-}
-
-/* Banner content */
-.banner-content {
-  padding: 90px;
-  padding-top: 0px;
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  /* Align content to the left */
-  overflow-y: hidden;
-}
-
-/* Banner text */
-.banner-text {
-  width: 50%;
-  font-size: 76px;
-  margin-bottom: 20px;
-  text-align: left;
-  /* Align text to the left */
-  line-height: 76px;
-  overflow-y: hidden;
-  font-style: italic;
-  font-weight: 700;
-}
-
-/* Highlighted text */
-.highlight {
-  color: #3322af;
-  /* Yellow color for 'first choice' */
-}
-
-/* Neonatology highlighted text */
-.neonatology {
-  color: #3322af;
-  /* Red color for 'neonatology' */
-}
-
-/* Button container */
-.buttons-container {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-/* Schedule container */
-.schedule-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  /* Align content to the left */
-}
-
-.divider {
-  border: none;
-  border-top: 1px solid white;
-  margin: 10px 0;
-  width: 100%;
-}
-
-/* Schedule texts and divider */
-.schedule-texts {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  font-weight: bold;
-  color: rgb(136, 69, 207);
-
-}
-
-.schedule-text {
-
-  text-align: left;
-  margin-right: 10px;
-  color: rgb(77, 28, 183);
-
-}
-
-.schedule-texts a {
-  text-decoration: none;
-  /* border: solid 2px #ccc; */
-}
-
-.schedule-texts .schedule-text:hover .callno {
-  text-decoration: none;
-  color: rgb(32, 76, 217);
-}
-
-.schedule-texts .schedule-text:hover .icon {
-  text-decoration: none;
-  color: rgb(45, 21, 224);
-}
-
-.vertical-divider {
-  border: none;
-  border-left: 1px solid white;
-  height: 40px;
-  /* Adjust height to match text height */
-  margin: 0 10px;
-}
-
-/* Button styles */
-.btn {
-  background-color: #3322af;
-  /* border: 2px solid white; */
-  border-radius: 100px;
-  color: white;
-  padding: 20px 40px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  font-size: 20px;
-  margin-left: 0px;
-  font-weight: 900;
-  margin-top: 20px;
-}
-
-.btn2 {
-  background-color: rgb(136, 69, 207);
-}
-
-.btn2:hover {
-  color: rgb(136, 69, 207);
-  background-color: #FFFFFF;
-}
-
-.btn1:hover {
-  background-color: white;
-  color: #3322af;
-  /* border: 2PX solid #3322af; */
-}
-
 }
