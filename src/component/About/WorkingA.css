@@ -109,7 +109,7 @@
   /* this media query use for table-layout */
 /* Container for the entire component */
 .workingA-container {
-  width: 80%;
+  width: 100%;
 outline: none ;
   text-align: center;
   background-color: #ebfaf1;
@@ -139,26 +139,29 @@ outline: none ;
 }
  
 /* Container for the cards */
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
+.workingA-container {
   width: 100%;
+  outline: none;
+  text-align: center;
+  background-color: #ebfaf1;
+  margin: 0px;
+  padding: 10px;
   height: fit-content;
-  margin-left: 50px;
-  align-items: center; /* Align items vertically */
-  gap: 16px;
-  margin-top: 24px;
-  overflow-x: auto; /* Allow horizontal scrolling if necessary */
+  /* margin-left: 10%; */
+  position: relative;
+  left: 0px;
+  gap: 0px;
 }
- 
 /* Individual card styling */
 .custom-card {
   background-color: #ebfaf1;
   border-radius: 12px;
-  padding: 2px;
+
   text-align: center;
   transition: transform 0.3s ease;
-  width: 40%; /* Adjust width as needed */
+  width:400px; /* Adjust width as needed */
+  height: 500px;
+  /* outline: auto; */
 }
  
 .custom-card:hover {
@@ -168,7 +171,7 @@ outline: none ;
 .card-image {
   height: 128px;
   width: 128px;
-  background-color: #e0e0e0;
+  /* background-color: #e0e0e0; */
   border-radius: 50%;
   margin: 0 auto 16px;
   overflow: hidden;
@@ -186,6 +189,7 @@ outline: none ;
   margin-top: 8px;
   margin-bottom: 8px;
   color: #1b3c74;
+  height: 40px;
 }
  
 /* Text under each card */

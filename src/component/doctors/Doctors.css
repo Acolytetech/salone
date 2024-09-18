@@ -1,75 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.doctors-container {
+    width: 100%;
+    padding: 50px;
+    padding-top: 120px;
+    height: fit-content;
+    display: flex;
+}
+
 .app-container {
     font-family: Arial, sans-serif;
     /* padding: 64px 65px 64px 65px; */
-
-    padding-top: 120px;
-    width: 97%;
+    display: block;
+    width: 70%;
     overflow-x: hidden;
-    padding-left: 70px;
+    margin: auto;
+
+
+
+
+}
+
+.search-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 100%;
+    height: 44px;
+    border: 1.5px solid rgb(212, 205, 205);
+    border-radius: 30px;
+    padding-left: 3px;
+    margin-bottom: 30px;
+
+}
+
+.search-div .icon {
+    width: 40px;
+    height: 40px;
+    color: #3152A9;
+}
+
+.search-bar {
+    margin-top: 20px;
+    width: 90%;
+    border: none;
+}
+
+/* .search-bar input{
+    width: 100%;
+} */
+
+
+.doctors-container .doctor-location {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-bottom: 40px;
+}
+
+.doctor-location {
+    display: flex;
+
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 20px;
+    /* Add margin for spacing */
+    width: 100%;
+
+    justify-content: space-between;
+
+
+}
+
+.doctorName {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #818181;
+    /* Add space between icon and select */
+}
+
+.doctorName .icon,
+.location .icon {
+    color: #0056b3;
+}
+
+.doctor-select {
+    color: #818181;
+
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1.5px solid rgb(212, 205, 205);
+
+}
+
+.location {
+    width: fit-content;
+    display: flex;
+    background-color: transparent;
+}
+
+.location-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #818181;
 
 }
 
 .search-bar {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     margin-bottom: 20px;
-    margin-left: 0px;
-    width: 63%;
-}
-
-
-.doctor-location {
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
-}
-
-.search-input {
-    width: 70%;
-    padding: 10px;
-    font-size: 16px;
 }
 
 .location-select {
-    width: 25%;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
+    border: none;
+    border-bottom: 1.5px solid rgb(212, 205, 205);
+
 }
 
 .main-section {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    max-height: fit-content;
+    /* overflow-y: auto; */
+
 
 }
 
 .doctor-list-container {
-    width: 60%;
+    width: 100%;
     height: fit-content;
     padding-bottom: 50px;
+
 }
 
-.sidebar {
-    width: 30%;
-    padding: 20px;
-    background-color: transparent;
-    border-radius: 10px;
-}
-
-.sidebar img {
-    width: 100%;
-    height: 400px;
-}
 
 .doctor-list {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .doctor-card {
+    width: 100%;
+    height: fit-content;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -87,304 +174,506 @@
 
 .doctor-details {
     flex: 1;
+
 }
+
 
 .doctor-details h2 {
     margin: 0;
     font-size: 20px;
-    color: #333;
+    color: black;
 }
 
 .doctor-specialization {
-    color: #007bff;
+    color: #3152A9;
 }
 
 .doctor-qualification,
 .doctor-hospital,
 .doctor-availability {
     margin: 5px 0;
-    color: #555;
+    color: #818181;
+    margin-top: 20px;
+
 }
 
 .doctor-actions {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
-.book-button {
-    padding: 7px 32px;
-    margin: 7px 0;
+.doctor-actions .action-btn {
+    margin-bottom: 5px;
+    width: 170px;
+    height: fit-content;
+    background-color: #3152A9;
+    color: white;
     border: none;
-    background-color: #0056b3;
-    color: #fff;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     display: flex;
-    font-size: 14px;
-    text-align: left;
-
+    padding-left: 20%;
 }
 
-.book-button span {
-    display: flex;
-    margin-left: 10px;
-    padding-right: 7px;
-}
-
-.call-button {
-    padding: 7px 30px;
-    margin: 7px 0;
-    border: none;
-    background-color: #0056b3;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    display: flex;
-    font-size: 14px;
-    text-align: left;
-}
-
-.book-button .icon {
-    width: 20px;
-    height: 20px;
+.action-btn .icon {
     color: white;
-    padding: auto;
-    margin: auto;
-    margin-right: 10px;
-
+    width: 25px;
+    height: 35px;
+    margin-right: 5px;
 }
 
-.call-button .icon {
-    width: 20px;
-    height: 20px;
+.action-btn span {
     color: white;
-    padding: auto;
+    font-size: 1.5rem;
     margin: auto;
-    margin-right: 10px;
+    margin-left: 0px;
 }
 
-.call-button {
-    background-color: #0056b3;
-}
-
-.book-button:hover,
-.call-button:hover {
-    opacity: 0.9;
-}
-
-.doctor-location {
-    display: flex;
-
-    align-items: center;
-    /* Center items vertically */
-    margin-bottom: 20px;
-    /* Add margin for spacing */
-    width: 100%;
-    overflow-y: hidden;
-    gap: 40px;
-}
-
-.doctorName {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    /* Center items vertically */
-    gap: 10px;
-    /* Add space between icon and select */
-}
-
-.doctorName .icon,
-.location .icon {
-    color: #0056b3;
-}
-
-.doctor-select {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.location {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    /* Center items vertically */
-    gap: 10px;
-    /* Add space between icon and select */
+.sidebar {
+    width: 30%;
+    height: 500px;
+    padding-left: 20px;
     background-color: transparent;
+    position:relative
+
+
 }
 
-.location-select {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
+.sidebar img {
+    top: 100px;
+    left: 70%;
+    position: fixed;
+    width: 30%;
+    height: 95%;
+    border-radius: 10px;
+    object-fit:cover;
+    object-position: center;
 }
 
-.search-bar {
-    margin-bottom: 20px;
-}
 
-
-/* For tablet view (max-width: 768px) */
- @media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    .doctors-container {
+        width: 100%;
+        padding: 107px 10px 10px 10px;
+        /* padding-top: 70px; */
+        height: fit-content;
+        display: flex;
+    }
 
     .app-container {
         font-family: Arial, sans-serif;
-        padding-top: 50px;
-        width: 90%;
-        height: fit-content;
-        overflow-x: hidden;
-        padding-left: 0px;
-        margin: auto;
-        text-align: center;
-    }
-
-    .doctor-location {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
+        /* padding: 64px 65px 64px 65px; */
+        display: block;
         width: 100%;
-        margin-top: 20px;
-    }
-    div.search-bar{
-        margin-left: 10px;
-        width: 90%;
+        overflow-x: hidden;
+        margin: auto;
     }
 
+    .search-div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        height: 55px;
+        border: 1.5px solid rgb(212, 205, 205);
+        border-radius: 30px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        position: relative;
+
+    }
+
+    .search-div .icon {
+        width: 40px;
+        height: 40px;
+        color: #3152A9;
+    }
+
+    .search-div .search-bar input {
+        width: 80%;
+        height: 100%;
+        /* background-color: black; */
+    }
+    .doctors-container .doctor-location {
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 10px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        gap: 30px
+    }
     .doctorName {
         width: 100%;
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-left: 0;
-        position: relative;
+        color: #818181;
+        /* Add space between icon and select */
     }
 
-    .doctorName .icon {
+    .doctorName .icon,
+    .location .icon {
         color: #0056b3;
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        position: relative;
-        
     }
 
     .doctor-select {
         width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        margin-left: 0;
-        margin-bottom: 20px;
-        display: inline-block;
-    }
-
-    .location {
-        width: 100%;
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-left: 0;
+        color: #818181;
     }
 
-    .location .icon {
-        color: #0056b3;
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        position: relative;
+    .location {
+        background-color: black;
+        width: 100%;
+        width: 100%;
+        display: flex;
+        background-color: transparent;
+    }
+
+    .location .location-select {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        color: #818181;
+        padding-left: 20px;
+
+    }
+
+    .search-bar {
+        margin-bottom: 20px;
     }
 
     .location-select {
         width: 100%;
-        padding: 10px;
+        padding: 0px;
         font-size: 16px;
-        display: inline-block;
+        border: none;
+        border-bottom: 1.5px solid rgb(212, 205, 205);
+
     }
 
-    .search-bar .search-input {
+    .main-section {
         width: 100%;
-        padding: 10px;
-        font-size: 14px;
-        border: 1px solid #ccc;
-        margin-top: 20px;
-        display: inline-block;
-    }
+        max-height: fit-content;
 
-    /* Center doctor card container */
-    .doctor-list-container {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 20px;
     }
-
-    .doctor-list-container{
-        width: 85%;
-        margin-left: 5%;
-    }
-
-    /* Doctor card adjustments */
     .doctor-card {
-        display: flex;
-        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        height: fit-content;
+        display: block;
         align-items: center;
         text-align: center;
         padding: 20px;
         border: 1px solid #ddd;
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        width: 90%; /* Add this to restrict the card width on smaller screens */
-        max-width: 400px; /* Optional max width to keep a consistent size */
     }
 
+    .doctor-avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+
+    .doctor-actions {
+        margin-top: 20px;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .doctor-actions .action-btn {
+        margin: auto;
+        margin-bottom: 5px;
+        width: 170px;
+        height: fit-content;
+        background-color: #3152A9;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        display: flex;
+        padding-left: 0%;
+        align-items: center;
+    }
+
+
+}
+
+/* tablet responsive start  */
+@media  (min-width: 768px) and (max-width: 1200px){
+
+.doctors-container .sidebar{
+    display: none;
+}
+    .doctors-container {
+        width: 100%;
+        padding: 50px;
+        padding-top: 120px;
+        height: fit-content;
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    .app-container {
+        font-family: Arial, sans-serif;
+        /* padding: 64px 65px 64px 65px; */
+        display: block;
+        width: 100%;
+        overflow-x: hidden;
+        margin: auto;
+    
+    
+    
+    
+    }
+    
+    .search-div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        width: 100%;
+        height: 45px;
+        border: 1.5px solid rgb(212, 205, 205);
+        border-radius: 30px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .search-div .icon {
+        width: 40px;
+        height: 40px;
+        color: #3152A9;
+    }
+    
+    .search-bar {
+        margin-top: 20px;
+        width: 80%;
+    }
+    
+    /* .search-bar input{
+        width: 100%;
+    } */
+    
+    
+    .doctors-container .doctor-location {
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }
+    
+    .doctor-location {
+        display: flex;
+    
+        align-items: center;
+        /* Center items vertically */
+        margin-bottom: 20px;
+        /* Add margin for spacing */
+        width: 100%;
+    
+        justify-content: space-between;
+    
+    
+    }
+    
+    .doctorName {
+        width: 35%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #818181;
+        /* Add space between icon and select */
+    }
+    
+    .doctorName .icon,
+    .location .icon {
+        color: #0056b3;
+    }
+    
+    .doctor-select {
+        color: #818181;
+    
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-bottom: 1.5px solid rgb(212, 205, 205);
+    
+    }
+    
+    .location {
+        width: fit-content;
+        display: flex;
+        background-color: transparent;
+    }
+    
+    .location-select {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        color: #818181;
+    
+    }
+    
+    .search-bar {
+        margin-bottom: 20px;
+    }
+    
+    .location-select {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-bottom: 1.5px solid rgb(212, 205, 205);
+    
+    }
+    
+    .main-section {
+        width: 100%;
+        max-height: fit-content;
+        /* overflow-y: auto; */
+    
+    
+    }
+    
+    .doctor-list-container {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 50px;
+    
+    }
+    
+    
+    .doctor-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .doctor-card {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
     .doctor-avatar {
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        margin-bottom: 10px;
+        margin-right: 20px;
     }
-
+    
+    .doctor-details {
+        flex: auto;
+        width: 100%;
+    
+    }
+    
+    
     .doctor-details h2 {
+        margin: 0;
         font-size: 20px;
+        color: black;
     }
-
-    /* Fix the doctor actions button layout */
-    .doctor-card .doctor-actions {
-        display: flex;
-        justify-content: center;
-        width: 100%;
+    
+    .doctor-specialization {
+        color: #3152A9;
+    }
+    
+    .doctor-qualification,
+    .doctor-hospital,
+    .doctor-availability {
+        margin: 5px 0;
+        color: #818181;
         margin-top: 20px;
+    
+    }
+    
+    .doctor-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .doctor-actions .action-btn {
+        margin-bottom: 5px;
+        width: 170px;
+        height: fit-content;
+        background-color: #3152A9;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        display: flex;
+        padding-left: 10%;
+    }
+    
+    .action-btn .icon {
+        color: white;
+        width: 25px;
+        height: 35px;
+        margin-right: 5px;
+    }
+    
+    .action-btn span {
+        color: white;
+        font-size: 1.5rem;
+        margin: auto;
+        margin-left: 0px;
+    }
+}
+@media (min-width:428px) and (max-width:926px){
+    .doctor-actions .action-btn {
+        margin-bottom: 5px;
+        width: 170px;
+        height: fit-content;
+        background-color: #3152A9;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        display: flex;
+        padding-left: 13%;
+    }
+    
+    .action-btn .icon {
+        color: white;
+        width: 25px;
+        height: 35px;
+        margin-right: 5px;
+    }
+    
+    .action-btn span {
+        color: white;
+        font-size: 1.5rem;
+        margin: auto;
+        margin-left: 0px;
     }
 
-    .doctor-card .book-button,
-    .doctor-card .call-button {
-        width: 75%;
-        text-align: center;
-        padding:15px 0px;
-        font-size: 14px;
-        margin-left:10%;
-        padding-right:20%;
-        /* justify-content: center; */
-    }
-
-    .search-bar .search-input {
-        width: 100%; /* This will set the width relative to the parent container */
-        height: auto; /* Allow height to adjust naturally */
-        padding-left: 5px; /* Add a little padding inside the input */
-        font-size: 14px;
-        border: 1px solid #ccc; /* Add a border so it's visible */
-        outline: none;
-        position: relative; /* Changed from absolute to relative */
-        top: auto; /* Remove top positioning */
-        left: auto; /* Remove left positioning */
-    }
-
-    .sidebar img {
-       display: none;
-    }
-   .app-container .searchbar-section  .search-bar{
-        width: 100%;
-    }
-} 
-
+}

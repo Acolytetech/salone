@@ -8,11 +8,17 @@ const Banner = () => {
     <div className="banner">
       <div className="banner-content">
         <h1 className="banner-text">
-          The <span className="highlight">first choice</span> in <span className="highlight neonatology">neonatology</span> medical care
+        
+        Your Complete <span className="highlight">Virtual Healthcare</span> in <span className="highlight neonatology"> Solution</span>
         </h1>
         <div className="buttons-container">
+          <a href='/about' className='Abouts-bannerlink'>
           <button className="btn btn1 about-us">About Us</button>
+          </a>
+          <a href='/services' className='services-bannerlink'>
           <button className="btn btn2 services"> Our Services</button>
+
+          </a>
         </div>
         <div className="schedule-container">
           {/* <hr className="divider" /> */}
@@ -20,14 +26,14 @@ const Banner = () => {
             <a href=''>
             <span className="schedule-text">Make an Appointment <br/>  
            
-         <span className='callno'>  <IoCallOutline className='icon'/>  88 70 06 00</span> </span>
+         <span className='callno'>  <IoCallOutline className='icon'/>8619909744</span> </span>
             
 
             </a>
           
             <hr className="vertical-divider" />
             <span className="schedule-text">Online Schedule<br/>
-            <span className='callno'> <FaRegCalendarCheck  className='icon'/> Book Here</span> </span>
+            <a href='/bookappointment'><span className='callno'> <FaRegCalendarCheck  className='icon'/> Book Here</span></a> </span>
           </div>
         </div>
         <div class="custom-shape-divider-bottom-1725689494">

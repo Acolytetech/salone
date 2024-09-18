@@ -3,6 +3,8 @@ import avator from '../../img/avator.png'
 import { CiCalendar } from "react-icons/ci";
 import { IoVideocamOutline } from "react-icons/io5";
 
+import { FaMapMarkerAlt } from "react-icons/fa";
+
 const DoctorCard = ({ doctor }) => {
   return (
     <div className="doctor-card">
@@ -11,21 +13,19 @@ const DoctorCard = ({ doctor }) => {
         <h2>{doctor.name}</h2>
         <p className="doctor-specialization">{doctor.specialization}</p>
         <p className="doctor-qualification">{doctor.qualification}</p>
-        <p className="doctor-hospital">{doctor.hospital}</p>
+        <p className="doctor-hospital"> <FaMapMarkerAlt style={{color:'#3152A9'}}/>{doctor.hospital}</p>
         <p className="doctor-availability">
           Availability: {doctor.availability}
         </p>
       </div>
       <div className="doctor-actions">
-        <span>
-        <button className="book-button"><CiCalendar className='icon' />
-        <span> Book Visit</span></button>
 
-        </span>
-      <span>
-      <button className="call-button"><IoVideocamOutline className='icon' /><span>Make a Call</span></button>
+        <button className="book-button action-btn"><CiCalendar className='icon' />
+          <span> Book Visit</span></button>
 
-      </span>
+        <button className="call-button action-btn"><IoVideocamOutline className='icon' /><span> Make A Call</span></button>
+
+
       </div>
     </div>
   );

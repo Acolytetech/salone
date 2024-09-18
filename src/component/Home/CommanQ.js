@@ -15,11 +15,16 @@ function CommanQ() {
   };
  
   const questions = [
-    { question: "What causes premature birth?", answer: "Premature birth can be caused by various factors like infections, high blood pressure, or stress." },
-    { question: "What is respiratory distress syndrome?", answer: "Respiratory distress syndrome (RDS) is a condition that affects premature newborns due to underdeveloped lungs." },
-    { question: "What are 'AB spells'?", answer: "'AB spells' refer to episodes of apnea (pauses in breathing) and bradycardia (slow heart rate) in infants." },
-    { question: "What is family-centered care?", answer: "Family-centered care emphasizes collaboration between healthcare providers and families in the care process." }
+    { question: "How do I book an appointment with a doctor through Sloane Virtual Hospital?", answer: "Simply download our app, select your preferred doctor, choose a convenient time slot, and book your appointment with just a few clicks!" },
+    { question: "What should I do if I need urgent medical assistance?", answer: "For urgent medical situations, you can instantly connect with our doctors through video calls to receive immediate advice and preliminary treatment." },
+    { question: "Can I get a prescription through a virtual consultation?", answer: "Yes, after your consultation, the doctor will provide a digital prescription, which can be accessed directly through the app." },
+    { question: "How does home diagnostic service work?", answer: "You can schedule a home sample collection for diagnostic tests through our app. A trained professional will visit your home to collect samples, and results will be available online." },
+    { question: "Is Sloane Virtual Hospital available 24/7?", answer: "Absolutely! Our platform offers round-the-clock access to medical professionals, so you can receive care whenever you need it." },
+    { question: "What payment options are available for consultations and services?", answer: "We offer multiple payment options, including credit/debit cards, net banking, UPI, and EMI plans for select healthcare packages." },
+    // { question: "Can I use the platform for follow-up consultations?", answer: "Yes, you can easily schedule follow-up consultations with the same doctor to ensure consistent care and health monitoring." },
+    { question: "Is my information secure on Sloane Virtual Hospital?", answer: "Yes, we prioritize patient privacy and use advanced encryption technology to keep all your data secure and confidential." }
   ];
+  
  
   return (
     <>

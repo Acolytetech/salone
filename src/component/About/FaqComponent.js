@@ -10,31 +10,31 @@ const FaqComponent = () => {
 
   const faqs = [
     {
-      question: ' How does the hospitals virtual consultation service eliminate geographical barriers for patients?',
-      answer: 'The hospitals virtual consultation service allows patients to connect with healthcare providers from anywhere, regardless of their location. This service is accessible online, enabling patients from remote or underserved areas to receive medical advice and treatment without the need for travel.',
+      question: ' In what way does a consultation service, like one provided by Sloane Virtual Hospital, eliminate geographical barriers for the patients? ',
+      answer: 'Our online consultation facility connects the patient to the doctors from any corner of the country on secure video calls that remove all forms of traveling and make healthcare accessible even in remote areas. ',
     },
     {
-      question: 'How do virtual consultations reduce wait times for patients?',
-      answer: ' Patients can schedule and attend appointments online, which streamlines the process and significantly reduces the time spent waiting for an in-person visit. The convenience of choosing an available time slot and attending the appointment from home or work helps minimize delays.',
+      question: 'How do virtual consultations improve patients waiting times?',
+      answer: ' You can, at your convenience, schedule a virtual consultation without having to wait in queues, which is usually the case in clinics and hospitals. In other words, you get to consult a doctor without much ado by bypassing the waiting rooms. ',
     },
     {
-      question: 'What cost advantages do patients gain from using the hospital virtual consultation platform?',
-      answer:  'The platform offers affordable consultation fees compared to traditional in-person visits. Additionally, it eliminates travel expenses and the costs associated with hospital admissions, making healthcare more accessible and cost-effective for patients.',
+      question: 'What are the benefits of costs to patients on the Sloane Virtual Hospital platform? ',
+      answer:  'Our platform offers inexpensive consultation fees, avoids travel costs, and reduces the cost of hospital admissions. We also make available a good deal of health packages at very reasonable prices, including insurance cover, to ensure that quality care is within reach for every class of people',
     },
     {
-      question: 'What options are available for patients in urgent situations through the virtual consultation service?',
-      answer: ' In urgent situations, patients can quickly connect with doctors via video calls for immediate advice and initial treatment. This feature allows for prompt medical intervention, helping patients manage emergencies effectively until further care is provided if needed.',
+      question: 'What are the possibilities in a virtual consultation service for urgent conditions of the patients? ',
+      answer: 'In emergencies, for example, our online portal connects patients with the doctors immediately through video calls, allowing them to obtain preliminary medical advice and treatment without wasting even a single moment. ',
     },
     {
       question: 'How does the hospital ensure consistent monitoring of patients health through its virtual platform?',
-      answer: ' Patients can easily schedule follow-up consultations online, which ensures that their health is consistently monitored. The convenience of virtual follow-ups helps maintain regular contact with healthcare providers, allowing for ongoing care and timely adjustments to treatment plans.',
+      answer: 'It ensures follow-up consultations, remote monitoring, and virtual wards for continuous and convenient care. Our healthcare team is available 24/7 to extend ongoing support and monitoring. ',
     },
   ];
 
   return (
     <div className="faq-container">
-      <span className="faq-span">Top FAQs</span>
-      <h2 className="faq-heading">Frequently Asked Questions</h2>
+      {/* <span className="faq-span">Top FAQs</span> */}
+      <h2 className="faq-heading">Top FAQs</h2>
       {faqs.map((faq, index) => (
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleQuestion(index)}>

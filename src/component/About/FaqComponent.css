@@ -1,16 +1,19 @@
 /* Main container styling */
 .faq-container {
   margin: 0 auto;
-  padding: 20px; /* Adjusted padding for smaller screens */
+  padding: 20px;
   border-radius: 10px;
   background-color: #fff;
+  width: 70%;
+  margin: auto;
+  padding-top: 60px;
 }
 
 /* Span styling */
 .faq-span {
   display: block;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #888;
   margin-bottom: 10px;
 }
@@ -18,19 +21,22 @@
 /* Heading styling */
 .faq-heading {
   text-align: center;
-  font-size: 24px;
+  font-size: 46px;
   margin-bottom: 20px;
-  color: #333;
+  color:black;
+  font-family: "overlock", sans-serif;
 }
 
 /* FAQ item styling */
 .faq-item {
   margin-bottom: 15px;
   padding-bottom: 10px;
+  border-bottom: 1px solid rgb(196, 189, 189) ;
 }
 
 /* Question styling */
 .faq-question {
+  font-family: "albert sans ", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center; /* Align items vertically centered */
@@ -47,23 +53,29 @@
 
 /* Question text styling */
 .faq-question-text {
-  font-size: 18px;
-  color: #333;
+  font-size:22px;
+  line-height: 30px;
+  color:black;
+  font-family: "albert sans ", sans-serif;
+
 }
 
 /* Toggle icon styling */
 .faq-toggle {
   font-size: 24px;
-  color: #888;
+  color:black;
   transition: color 0.3s ease;
 }
 
 /* Answer styling */
+
+
 .faq-answer {
   margin-top: 10px;
   padding-left: 20px;
   font-size: 16px;
   color: #666;
+  font-family: "albert sans ", sans-serif;
 }
 
 /* Responsive styles for tablets */

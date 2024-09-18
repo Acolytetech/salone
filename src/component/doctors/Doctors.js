@@ -5,12 +5,18 @@ import { FaUserMd } from 'react-icons/fa'; // Import doctor icon
 import { FaMapMarkerAlt } from 'react-icons/fa'; // Import location icon
 import doctor from '../../img/doctor 1.png';
 import SearchBar from './SearchBar';
+import { IoSearchCircleSharp } from "react-icons/io5";
 
 function Doctors() {
     return (
       <>
+      <div className='doctors-container'>
         <div className="app-container">
-          <SearchBar className="searchbar-section"/>
+          <div className='search-div'>
+
+          <IoSearchCircleSharp className="icon" /> <SearchBar className="searchbar-section"/>
+
+          </div>
         <div className='doctor-location'>
           <div className='doctorName'>
             <FaUserMd className="icon" /> {/* Doctor Icon */}
@@ -34,10 +40,12 @@ function Doctors() {
           <DoctorList />
 
           </div>
-          <div className="sidebar">
+        
+        </div>
+      </div>
+        <div className="sidebar">
             <img src={doctor} alt='doctor' />
           </div>
-        </div>
       </div>
       
       

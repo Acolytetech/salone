@@ -10,7 +10,7 @@ function Contact() {
       {/* <ContactBanner/> */}
       {/* <ContactTeam/> */}
       <ContactForm/>
-      <OurPatient/>
+      {/* <OurPatient/> */}
     </div>
   )
 }

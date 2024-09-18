@@ -1,14 +1,15 @@
 .commanq-container {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 flex-wrap: wrap;
   padding: 50px;
   padding-top: 0px;
   width: 100%;
-  height:500px;
+  height:550px;
   overflow-y: hidden;
-  margin-top: -100px;
+  /* padding-bottom: 100px; */
+
 }
  
 .bt_bb_image {
@@ -18,7 +19,8 @@ flex-wrap: wrap;
   scale: 0.8;
   width: 20%;
   height: 100px;
-  margin-top: -100px;
+  margin-top: 100px;
+  display: none;
 }
  
 .commanq-image {
@@ -31,26 +33,30 @@ flex-wrap: wrap;
   flex: 2;
   text-align: left;
   /* margin-left: 20px; */
-  scale: 0.7;
+  scale: 1;
   width: 70%;
-  height: 400px;
+  height: fit-content;
+  margin: auto;
+  padding-bottom: 100px;
 }
  
 .commanq-content h1 {
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #3a6ea1;
+  color:black;
+  font-family: "overlock", sans-serif;
 }
  
-.commanq-span {
+/* .commanq-span {
   color: #f46d67;
-}
+} */
  
 .questions {
   display: flex;
   flex-direction: column;
-  color: #3a6ea1;
+  color: black;
+  font-family: "albert sans ", sans-serif;
 }
  
 .question-container {
@@ -70,11 +76,13 @@ flex-wrap: wrap;
   margin: 0;
   font-size: 2rem;
   line-height: 1.4;
+  font-family: "albert sans ", sans-serif;
+
 }
  
 .plus {
-  font-size: 1.5rem;
-  color: #00aaff;
+  font-size: 2rem;
+  color: black;
 }
  
 .answer {
@@ -84,6 +92,8 @@ flex-wrap: wrap;
   border-radius: 5px;
   font-size: 1.5rem;
   color: #333;
+  font-family: "albert sans ", sans-serif;
+  
 }
  
 /* Responsive design */
@@ -92,6 +102,8 @@ flex-wrap: wrap;
     flex-direction: column;
     text-align: left;
     padding-top: -100px;
+    height: fit-content;
+    width: 100%;
   }
  
   .bt_bb_image {
@@ -100,22 +112,25 @@ flex-wrap: wrap;
   }
  
   .commanq-content {
-    text-align: center;
-    margin-left: -100px;
+    text-align: left;
+    /* margin-left: -100px; */
     padding: 0px;
     width: 100%;
-  }
+
+}
+.commanq-content h1{
+  text-align: center;
+}
+.question p {
+  font-size: 1.5rem;
+}
  
-  .question p {
-    font-size: 1rem;
-  }
- 
-  .plus {
-    font-size: 1.2rem;
-  }
+.plus {
+  font-size: 1.9rem;
+}
  
   .answer {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
   }
 }
  

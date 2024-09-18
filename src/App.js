@@ -12,6 +12,7 @@ import BookAppointment from './component/bookappointment/BookAppointment';
 import Doctors from './component/doctors/Doctors';
 import Privacypolice from './component/Privacypolice';
 import Services from './component/Services';
+import Shop from './component/Services/Shop';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/privacypolice" element={<Privacypolice />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/ordermedicine" element={<Shop/>} />
       </Routes>
       <Footer />
     </Router>

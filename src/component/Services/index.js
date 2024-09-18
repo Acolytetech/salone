@@ -7,7 +7,7 @@ const Services = () => {
     <>
       <Hero />
       <OurServices />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </>
   );
 };

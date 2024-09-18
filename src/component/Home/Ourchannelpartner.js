@@ -7,10 +7,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'; // Import autoplay CSS if necessary
-import slide1 from '../../img/Neurology.jpeg';
-import slide2 from '../../img/Opthamology.jpeg';
-import slide3 from '../../img/ambulance1.jpg';
-import slide4 from '../../img/Neurology.jpeg';
+import slide1 from '../../img/channel partner/slide1.png';
+import slide2 from '../../img/channel partner/slide 2.png';
+import slide3 from '../../img/channel partner/slide 3.png';
+import slide4 from '../../img/channel partner/slide 4.png';
 
 const Ourchannelpartner = () => {
   return (
@@ -35,33 +35,33 @@ const Ourchannelpartner = () => {
             <SwiperSlide className='swiper-slide'>
               <img src={slide1} alt="Neurology" />
               <div className='slide-content'>
-                <h2>Neurology Services</h2>
-                <p>Explore our specialized neurology services designed to offer the best care and treatment for neurological conditions.</p>
-                <button className='slide-button'>Learn More</button>
+                <h2>Mr. Sahil kakkar</h2>
+                <p>Our channel partner from Mumbai.</p>
+                {/* <button className='slide-button'>Learn More</button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide className='swiper-slide'>
               <img src={slide2} alt="Opthamology" />
               <div className='slide-content'>
-                <h2>Opthamology Services</h2>
-                <p>Discover our comprehensive eye care solutions tailored to your vision needs and health.</p>
-                <button className='slide-button'>Learn More</button>
+                <h2>Mr. Rahul Sharma</h2>
+                <p>Our channel partner from Noida.</p>
+                {/* <button className='slide-button'>Learn More</button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide className='swiper-slide'>
               <img src={slide3} alt="Ambulance" />
               <div className='slide-content'>
-                <h2>Emergency Services</h2>
-                <p>Our emergency services are available 24/7 to provide immediate care in critical situations.</p>
-                <button className='slide-button'>Learn More</button>
+                <h2>Mr. Rakesh Sahu</h2>
+                <p>Our channel partner from Jaipur</p>
+                {/* <button className='slide-button'>Learn More</button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide className='swiper-slide'>
               <img src={slide4} alt="Neurology" />
               <div className='slide-content'>
-                <h2>Advanced Neurology</h2>
-                <p>Leading-edge treatments and diagnostic techniques in neurology to help you manage your condition effectively.</p>
-                <button className='slide-button'>Learn More</button>
+              <h2>Mr. Sachin Lawaniya</h2>
+              <p>Our channel partner from Jaipur</p>
+                {/* <button className='slide-button'>Learn More</button> */}
               </div>
             </SwiperSlide>
           </Swiper>

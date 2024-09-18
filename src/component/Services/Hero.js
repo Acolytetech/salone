@@ -35,9 +35,14 @@ const Hero = () => {
             <h4>
               We offer a full range of services and minor emergency services
             </h4>
-            <button className={`${styles.btn} ${styles.btnGreen}`}>
-              About Vaccination
+<a href="/labtest" >
+<button className={`${styles.btn} ${styles.btnGreen}`}>
+              Labtest
             </button>
+</a>
+
+         
+          
           </div>
         </div>
         <div className={styles.curve}>

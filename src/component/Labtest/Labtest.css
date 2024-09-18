@@ -4,7 +4,7 @@
     padding-top: 100px;
     background-image: url(../../img/labtest\ banner.png);
     background-size: cover;
-    filter: brightness(0.7);
+    /* filter: brightness(0.7); */
     background-position: center;
     display: flex;
     align-items: center;
@@ -15,11 +15,14 @@
 
 /* Location Selection */
 .labtest-banner .choose-location {
-    width: 250px;
-    color: white;
+    align-items: left;
+    color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    margin-top: 20px;
+    width: 250px;
+
+    /* padding-left: -20px; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
@@ -27,7 +30,6 @@
 
 .choose-location p {
     font-size: 30px;
-
     margin-bottom: 10px;
     margin-left: 20px;
     font-family: "Albert Sans", sans-serif;
@@ -35,27 +37,27 @@
 
 .labtest-banner .location {
     width: 100%;
-    height: 45px;
+    height: 40px;
     background-color: rgb(248, 250, 250);
     border-radius: 30px;
 }
 
 .select-location {
-    width: 100%;
+    width: 93%;
     height: 40px;
     border: none;
     outline: none;
     background-color: transparent;
     color: rgb(88, 82, 82);
     padding-left: 20px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     border-radius: 30px;
     text-transform: capitalize;
 }
 
 .labtest-header {
-    font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+    font-family: "Overloack", sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,7 +70,7 @@
 .choose-labtest {
     width: 60%;
     max-width: 600px;
-    height: 45px;
+    height: 40px;
     background-color: white;
 
     margin-top: 70px;
@@ -78,20 +80,21 @@
 }
 
 .labtest-search {
+    border: none;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    height: 100%;
+    margin-left: 0;
+    outline: none;
+    padding-left: 10px;
     width: 90%;
-    height: 95%;
     border: none;
     outline: none;
-    padding-left: 20px;
-    font-size: 1.2rem;
-    margin-left: 0%;
-    border-radius: 30px;
-
 }
 
 .search-icon {
     font-size: 40px;
-    padding-left: 10px;
+    padding-left: 0px;
     color: #3152A9;
 }
 
@@ -111,34 +114,33 @@
 }
 
 .cart-icon {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #3152A9;
 }
 
-
 .view-cart-button {
-    color: #3152A9;
-    background-color: transparent;
+    background-color: initial;
     border: none;
-    padding: 0px 0px;
     border-radius: 5px;
+    color: #3152a9;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+    padding: 0;
     text-decoration: underline;
 }
 
 
-
 .test-item {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0px 25px;
-    margin: 20px 0;
-    /* background-color: #f9f9f9; */
-    border-radius: 10px;
     border: 1px solid #ddd;
-    font-size: 1rem;
+    border-radius: 10px;
+    display: flex;
+    font-family: albert sans, sans-serif;
+    font-size: 2rem;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 13px 25px;
 }
 
 .test-item .test-name {
@@ -148,22 +150,24 @@
 }
 
 .test-item button {
-    background-color: #3152A9;
-    color: #fff;
-    padding: 7px 42px;
+    background-color: #3152a9;
     border: none;
     border-radius: 18px;
+    color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+    padding: 7px 19px;
+    transition: background-color .3s ease;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 .test-item p span {
-    margin: 20px;
+    font-family: Albert Sans, sans-serif;
     font-size: 35;
-    font-weight: bold;
-    font-family: "Albert Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 20px;
 }
 
 .test-item button:hover {
@@ -171,7 +175,8 @@
 }
 
 .labtest-header h2 {
-    font-family: "overlock", sans-serif;
+    font-family: overlock, sans-serif;
+    font-size: 3.59rem;
 }
 
 
@@ -181,11 +186,11 @@
     .labtest-banner {
         width: 100%;
         height: fit-content;
-        padding-top: 50px;
+        padding-top: 95px;
         background-image: url(../../img/labtest\ banner.png);
         background-size: fill;
         background-repeat: no-repeat;
-        filter: brightness(0.8);
+        /* filter: brightness(/0.8); */
         background-position: center;
         display: flex;
         align-items: center;
@@ -195,6 +200,7 @@
         padding-bottom: 50px;
 
     }
+
 
     /* Location Selection */
     .labtest-banner .choose-location {
@@ -209,20 +215,20 @@
 
 
     .choose-location p {
-        font-size: 20px;
-
+        font-size: 25px;
         margin-bottom: 10px;
         margin-left: 20px;
         font-family: "Albert Sans", sans-serif;
+        text-align: center;
     }
 
     .labtest-banner .location {
         width: 100%;
-        height: 45px;
+        height: 40px;
         background-color: rgb(248, 250, 250);
         border-radius: 30px;
-
     }
+
 
     .select-location {
         width: 100%;
@@ -250,11 +256,10 @@
 
     /* Lab Test Search Bar */
     .choose-labtest {
-        width: 80%;
+        width: 75%;
         max-width: 600px;
-        height: 45px;
+        height: 40px;
         background-color: white;
-
         margin-top: 0px;
         border-radius: 30px;
         outline: auto white;
@@ -267,7 +272,7 @@
         border: none;
         outline: none;
         padding-left: 20px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin-left: 0%;
         border-radius: 30px;
 
@@ -288,14 +293,15 @@
     }
 
     .labtest-header {
-        width: 90%;
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 94%;
+        padding-left: 9px;
+        padding-right: 8px;
     }
+
 
     .labtest-header h2 {
         font-family: "overlock", sans-serif;
-        font-size: 25px;
+        font-size: 21px;
     }
 
     /* Cart and View Cart */
@@ -307,19 +313,19 @@
     }
 
     .cart-icon {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         color: #3152A9;
     }
 
-
     .view-cart-button {
-        color: #3152A9;
-        background-color: transparent;
+        background-color: initial;
         border: none;
-        padding: 0px 0px;
         border-radius: 5px;
+        color: #3152a9;
         cursor: pointer;
-        font-size: 1rem;
+        font-size: 1.9rem;
+        font-weight: 500;
+        padding: 0;
         text-decoration: underline;
     }
 
@@ -329,15 +335,16 @@
         width: 95%;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        padding: 0px 0px;
+        align-items: left;
+        /* padding: 6px 14px 0px 0px; */
         /* background-color: #f9f9f9; */
+        padding-left: 20px;
         border-radius: 10px;
         border: 1px solid #ddd;
-        font-size: 1rem;
+        font-size: 1.5rem;
         /* margin: auto; */
         margin: 10px 10px;
-
+        text-align: left;
     }
 
     .test-item .test-name {
@@ -360,9 +367,11 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
-   .test-item  .rate-caddtocart {
-        padding-left: 50px;
+    .test-item .rate-caddtocart {
+        /* padding-left: 50px; */
+        padding: 7px;
     }
+
 
 
     .test-item p span {
@@ -375,5 +384,30 @@
     .test-item button:hover {
         background-color: #0056b3;
     }
+
+
+    .labtest-banner .choose-location {
+        width: 75%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+
+    .select-location {
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: rgb(88, 82, 82);
+        padding-left: 20px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        border-radius: 30px;
+        text-transform: capitalize;
+    }
+
 
 }

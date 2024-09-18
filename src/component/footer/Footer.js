@@ -15,31 +15,26 @@ const Footer = () => {
 
         <>
             <footer className="bt-site-footer-main">
-            <div class="custom-shape-divider-top-1726048354">
+            <div class="custom-shape-divider-bottom-1725689494">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
     </svg>
 </div>
 
 <div className="button-container">
-      <span className="button-text">Newborn screening Tests</span>
-      <button className="book-test-btn">
+      <span className="button-text">Looking for online consultation?</span>
+     <a href='/bookappointment' style={{textDecoration:'none'}}> <button className="book-test-btn">
         {/* <img src={calendarIcon} alt="Calendar Icon" className="icon" /> */}
        
         <CiCalendar   className="icon"/>
-        Book screening test
-      </button>
+        Book appointment
+      </button></a>
     </div>
 
             </footer>
 
 
             <footer className="bt-site-footer">
-
-
-
-
-
                 <section id="footer-section" className="footer-section">
 
                     <div className="footer-content">
@@ -59,22 +54,22 @@ const Footer = () => {
                             <div className="footer-menu-section">
                                 <h6>Services</h6>
                                 <ul>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/home/home-05/">Business Planning</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/about/" aria-current="page">Feasibility Study</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/blog/">Startup Funding</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/shop/">Business Plan Review</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/about/contact/">Investor Presentation</a></li>
+                                    <li><a href="/bookappointment">Book  Appointment</a></li>
+                                    <li><a href="/ordermedicine" aria-current="page">Order medicine</a></li>
+                                    <li><a href="/labtest">Lab Tests</a></li>
+                                    <li><a href="BookAmbulnace/">Book Ambulance</a></li>
+                                    <li><a href="/Surgery">Surgery</a></li>
                                 </ul>
                             </div>
 
                             <div className="footer-menu-section">
                                 <h6>Pricing & Fees</h6>
                                 <ul>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/shop/">Compare Insurance Plans</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/shop/">Standard Plan – $499</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/shop/">Plus Plan – $799</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/shop/">Premium Plan – $999</a></li>
-                                    <li><a href="https://cliniq.bold-themes.com/curves/shop/">Pro Plan – $1399</a></li>
+                                    <li><a href="/">Home </a></li>
+                                    <li><a href="/about">About us</a></li>
+                                    <li><a href="services">Services</a></li>
+                                    <li><a href="/contactus">Contact Us </a></li>
+                                    
                                 </ul>
                             </div>
 
@@ -92,9 +87,9 @@ const Footer = () => {
                                         <TiSocialLinkedinCircular className='icon-size' /></a>
                                 </div>
                                 <div className="contact-info">
-                                    <p>1-800-1-900</p>
-                                    <p>info@cliniq.com</p>
-                                    <p>60 East 65th Street, New York</p>
+                                    <p>8619909744</p>
+                                    <p>info@sloanevirtualhospital.com</p>
+                                    {/* <p>60 East 65th Street, New York</p> */}
                                 </div>
 
                             </div>
@@ -107,11 +102,11 @@ const Footer = () => {
                 <div className="footer-bottom">
 
                     <div className="footer-policy-links">
-                        <div> ©2021 CLINIQ. All rights reserved </div>
+                        <div> ©2024 Sloane Virtual Hospital. All rights reserved </div>
                             <div className='privacylink'>
                                 <span >
                                     <a href="/privacypolice">Privacy Policy</a>
-                                    <a href="https://cliniq.bold-themes.com/curves/about/">Cookie Policy</a>
+                                    {/* <a href="https://cliniq.bold-themes.com/curves/about/">Cookie Policy</a> */}
                                 </span>
                             </div>
 

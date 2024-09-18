@@ -13,6 +13,8 @@ const Surgery = () => {
     "Varicose Veins",
     "Carpal Tunnel Syndrome",
     "Vaginal Cyst/Bartholin Cyst",
+
+    
   ];
  
   const handleSearchChange = (e) => {

@@ -13,7 +13,7 @@
  
 /* Title styling */
 .book-appointment-container h2 {
-    font-size: 2rem;
+    font-size: 4rem;
     color: #333;
     margin-bottom: 20px;
 }
@@ -48,7 +48,7 @@
 }
  
 .speciality-card p {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #333;
 }
@@ -81,7 +81,7 @@
     color: white;
     border: none;
     border-radius: 25px;
-    font-size: 1.1rem;
+    font-size: 2rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }

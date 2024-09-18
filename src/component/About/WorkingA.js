@@ -12,22 +12,22 @@ function WorkingA() {
     {
       imageSrc: one,
       heading: 'Select Expert Doctor',
-      text: 'There are many variations of passage of available, but the majority have suffered.',
+      text: 'Differentiated and experienced doctors are available in our extensive network for your choosing to cater for to your specific medical needs. ',
     },
     {
       imageSrc: two,
-      heading: 'Make Appointment',
-      text: 'There are many variations of passage of available, but the majority have suffered.',
+      heading: 'Make an Appointment',
+      text: 'Book an appointment with our convenient app; you can choose any time that fits into your schedule including today’s consultations or whatever date. ',
     },
     {
       imageSrc: three,
       heading: 'Get Consultation',
-      text: 'There are many variations of passage of available, but the majority have suffered.',
+      text: 'You will have a secure video chat from the comfort of your home with the selected doctor; it is possible for you to share symptoms, receive instant digital prescriptions and diagnoses. .',
     },
     {
       imageSrc: two,
-      heading: 'Get Care & Relief',
-      text: 'There are many variations of passage of available, but the majority have suffered.',
+      heading: 'Receive Care & Follow-Up ',
+      text: 'Our platform provides medicine ordering services as well as home delivery options or nearby pharmacy pickups. You can also plan follow up appointments so as continuous care takes place.',
     },
   ];
  

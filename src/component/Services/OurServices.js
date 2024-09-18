@@ -11,7 +11,7 @@ const services = [
   {
     title: "Order medicine",
     content: "Buy Medicines and Essentials items at best prices",
-    link: "",
+    link: "/ordermedicine",
     icon: "",
   },
   {
@@ -45,7 +45,7 @@ const OurServices = () => {
             <p className={styles.headerContent}>
               Sloane Virtual Hospital is your trusted partner for better health.
             </p>
-            <button className={styles.btn}>Full List of Servies</button>
+            {/* <button className={styles.btn}>Full List of Servies</button> */}
           </div>
           {services.map((service, index) => {
             return (
